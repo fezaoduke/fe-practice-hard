@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="../assets/main.css">
+  <title></title>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <header>
+      <h1 class="app-name">
+        <img src="../assets/images/title_ranking-list.png" draggable="false" :alt="title">
+        <span>{{ stageRange.join('-') }}期</span>
+      </h1>
+    </header>
+
+    <ol class="ranking-list">
+      <li v-for="ranking in rankings">
+        <div class="ranking-list-order"></div>
+        <div class="ranking-list-main">
+          <img :src="getAvatar(ranking.user)" :alt="ranking.user">
+          <a :href="getGitHubPage(ranking.user)" target="_blank" rel="noopener noreferrer">
+            {{ ranking.user }}
+          </a>
+        </div>
+        <div class="ranking-list-count">
+          <a class="count-item" href="javascript:;"
+            :class="{active: checkActive(ranking.user)}"
+            @click="showUserAttends($event, ranking.user)"
+            :title="countTitles['stage']"
+          >
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-count"></use>
+            </svg>
+            <b>{{ ranking.attends.length }}</b>
+          </a>
+          <span class="count-item" :title="countTitles['excellent']">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-excellent"></use>
+            </svg>
+            <b>{{ ranking.excellentNum }}</b>
+          </span>
+          <span class="count-item" :title="countTitles['thumbs']">
+            <svg class="icon" aria-hidden="true">
+              <use xlink:href="#icon-thumbs"></use>
+            </svg>
+            <b>{{ ranking.thumbsNum }}</b>
+          </span>
+        </div>
+      </li>
+    </ol>
+
+    <div class="modal" v-show="modal.isShow"
+      :style="{top: modal.posY + 'px', left: modal.posX + 'px'}"
+    >
+      <div class="modal-head">
+        <h3 class="modal-title">{{ modal.title }}</h3>
+        <a class="modal-close-btn" href="javascript:;"
+          @click="closeModal"
+        >
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-close"></use>
+          </svg>
+        </a>
+      </div>
+      <div class="modal-body">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>期数</th>
+              <th>{{ countTitles.stage }}</th>
+              <th>{{ countTitles.excellent }}</th>
+              <th>{{ countTitles.thumbs }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="attend in countAttends">
+              <td>{{ attend.idx }}</td>
+              <template v-if="attend.data">
+                <td>
+                  <i class="highlight">√</i>
+                </td>
+                <td>
+                  <i v-if="attend.data.excellent">√</i>
+                  <i v-else>-</i>
+                </td>
+                <td>{{ attend.data.thumbs || 0 }}</td>
+              </template>
+              <template v-else>
+                <td v-for="n in 3">-</td>
+              </template>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js" integrity="sha256-ufGElb3TnOtzl5E4c/qQnZFGP+FYEZj5kbSEdJNrw0A=" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js" integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=" crossorigin="anonymous"></script>
+  <script src="//at.alicdn.com/t/font_1171464_jslj5vgcpe.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+  <script src="../assets/js/multi-sort.js"></script>
+  <script src="../assets/js/closest.js"></script>
+
+  <script>
+    var ONE_SESSION = 100;  // 一届为100期 (1 session = 100 stage)
+
+    new Vue({
+      el: '#app',
+      data: {
+        title: '前端晚练课',
+        session: 1,  // 第几届（日常更新）
+        rankings: [],
+        modal: {
+          isShow: false,
+          title: '',
+          posX: 0,
+          posY: 0
+        },
+        attends: null,
+        countTitles: {
+          stage: '参与期数',
+          excellent: '优秀回答者',
+          thumbs: '点赞数'
+        }
+      },
+      computed: {
+        // 期数范围
+        stageRange: function() {
+          var start = (this.session - 1) * ONE_SESSION + 1;
+          var end = this.session * ONE_SESSION;
+          return [start, end];
+        },
+
+        // 统计当前用户参与场期的数据
+        countAttends: function() {
+          var start = this.stageRange[0];
+          var attends = this.attends;
+          var result = [];
+
+          if (attends && attends.length) {
+            for (var i = 0; i < ONE_SESSION; i++) {
+              var temp = { idx: i + start };
+
+              for (var j = 0; j < attends.length; j++) {
+                if (attends[j].stage === temp.idx) {
+                  temp.data = attends[j];
+                  break;
+                }
+              }
+
+              result.push(temp);
+            }
+          }
+
+          return result;
+        }
+      },
+      created: function() {
+        var jsonIndex = this.session;
+
+        if (/#[a-zA-Z]+\d+/.test(location.hash)) {
+          this.session = location.hash.replace(/#[a-zA-Z]+(\d+)/, function($0, $1) {
+            return $1
+          });
+        }
+
+        // 浏览器标题
+        document.title = this.title + ' (' + this.stageRange.join('-') + '期)';
+
+        window.addEventListener('click', (function(e) {
+          var el = e.target;
+
+          if (this.modal.isShow) {
+            // 点击空白处关闭弹框
+            // 排除点击触发按钮和弹出框的情况
+            if (!el.closest('a.count-item') && !el.closest('.modal')) {
+              this.closeModal();
+            }
+          }
+        }).bind(this), false);
+
+        // 获取 json 数据
+        this.reqData(this.session)
+          .catch(
+            // 获取不到文件时（一般由于 url hash 参数错误），缺省加载第一个
+            (function() {
+              this.session = 1;
+              this.reqData(this.session);
+            }).bind(this)
+          );
+      },
+      methods: {
+        // 拉取数据
+        reqData: function(sessionNum) {
+          var that = this;
+
+          return axios.get('session' + sessionNum + '.json?' + (+new Date()))
+            .then(function(res) {
+              return res.data;
+            })
+            .then(function(data) {
+              data = data.map(function(item) {
+                // 参与期数
+                item.attendNum = item.attends.length;
+
+                // 优秀回答数量
+                item.excellentNum = item.attends.reduce(function(total, attend) {
+                  return total += attend.excellent ? 1 : 0
+                }, 0);
+
+                // 点赞数量
+                item.thumbsNum = item.attends.reduce(function(total, attend) {
+                  return total += attend.thumbs || 0
+                }, 0);
+
+                return item;
+              });
+
+              // 按优秀回答数、点赞数、参与期数多重排序（降序）
+              data.sort(
+                multiSort(['excellentNum', 'thumbsNum', 'attendNum'], true)
+              );
+
+              that.rankings = data;
+            })
+        },
+
+        // 获取用户的 github 头像
+        getAvatar: function(username) {
+          return 'https://avatars.githubusercontent.com/' + username + '?s=52&v=4';
+        },
+
+        // 获取用户的 github 主页地址
+        getGitHubPage: function(username) {
+          return 'https://github.com/' + username;
+        },
+
+        checkActive: function(username) {
+          return this.modal.title === username;
+        },
+
+        // 展示当前用户的参与场期统计数据
+        showUserAttends: function(e, username) {
+          var node = e.target.closest('.count-item');
+          var modalHt = 444;
+
+          for (var i = 0; i < this.rankings.length; i++) {
+            if (this.rankings[i].user === username) {
+              this.attends = this.rankings[i].attends;
+              break;
+            }
+          }
+
+          var pos = node.getBoundingClientRect();
+          var posY = pos.top + pos.height + pageYOffset;
+
+          // 溢出视区下方，则自上方弹出
+          if (posY + modalHt > document.documentElement.clientHeight) {
+            posY = pos.top - modalHt + pageYOffset;
+
+            // 上方也溢出，则下方弹出（撑出滚动条）
+            if (posY < 0) {
+              posY = pos.top + pos.height + pageYOffset
+            }
+          }
+
+          this.modal.posX = pos.left + pos.width / 2;
+          this.modal.posY = posY;
+          this.modal.title = username;
+          this.modal.isShow = true;
+        },
+
+        closeModal: function() {
+          this.modal.isShow = false;
+          this.modal.title = '';
+        }
+      }
+    });
+  </script>
+</body>
+</html>
