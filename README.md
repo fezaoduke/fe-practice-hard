@@ -15,9 +15,10 @@
 
 ## 榜单
 
-- ### [试炼者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html#session1)
-- ### ~~[金牌考官（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/gold-examiner/index.html#session1)~~ （建设中）
-- ### ~~[名人堂（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/hall-of-fame/index.html#session1)~~ （建设中）
+- ### [试炼者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?session=1)
+- ### [考官排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?type=examiner&session=1)
+- ### ~~[名人堂（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/hall-of-fame/index.html?session=1)~~ （建设中）
+- ### ~~[金牌考官（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/gold-examiner/index.html?type=examiner&session=1)~~ （建设中）
 
 ## 前端早读课
 
