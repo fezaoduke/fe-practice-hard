@@ -6,48 +6,55 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon"/>
   <link rel="stylesheet" href="../assets/main.css">
-  <title></title>
+  <title>前端晚练课</title>
 </head>
 <body>
   <div id="app" v-cloak>
     <header>
       <h1 class="app-name">
-        <img src="../assets/images/title_ranking-list.png" draggable="false" :alt="title">
+        <img :src="titleImgUrl" draggable="false" :alt="title">
         <span>{{ stageRange.join('-') }}期</span>
       </h1>
     </header>
 
     <ol class="ranking-list">
-      <li v-for="ranking in rankings">
+      <li v-for="rank in rankings">
         <div class="ranking-list-order"></div>
         <div class="ranking-list-main">
-          <img :src="getAvatar(ranking.user)" :alt="ranking.user">
-          <a :href="getGitHubPage(ranking.user)" target="_blank" rel="noopener noreferrer">
-            {{ ranking.user }}
+          <img :src="getAvatar(rank.user)" :alt="rank.user">
+          <a :href="getGitHubPage(rank.user)" target="_blank" rel="noopener noreferrer">
+            {{ rank.user }}
           </a>
         </div>
         <div class="ranking-list-count">
           <a class="count-item" href="javascript:;"
-            :class="{active: checkActive(ranking.user)}"
-            @click="showUserAttends($event, ranking.user)"
-            :title="countTitles['stage']"
+            :class="{active: checkActive(rank.user)}"
+            :title="category['stage']"
+            @click="showUserData($event, rank.user)"
           >
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-count"></use>
             </svg>
-            <b>{{ ranking.attends.length }}</b>
+            <b>{{ rank[type === 'examiner' ? 'hosts' : 'attends'].length }}</b>
           </a>
-          <span class="count-item" :title="countTitles['excellent']">
+          <span class="count-item"
+            :title="category[type === 'examiner' ? 'hot' : 'excellent']"
+          >
             <svg class="icon" aria-hidden="true">
-              <use xlink:href="#icon-excellent"></use>
+              <template v-if="type === 'examiner'">
+                <use xlink:href="#icon-hot"></use>
+              </template>
+              <template v-else>
+                <use xlink:href="#icon-excellent"></use>
+              </template>
             </svg>
-            <b>{{ ranking.excellentNum }}</b>
+            <b>{{ rank[type === 'examiner' ? 'hotNum' : 'excellentNum'] }}</b>
           </span>
-          <span class="count-item" :title="countTitles['thumbs']">
+          <span class="count-item" :title="category['thumbs']">
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-thumbs"></use>
             </svg>
-            <b>{{ ranking.thumbsNum }}</b>
+            <b>{{ rank.thumbsNum }}</b>
           </span>
         </div>
       </li>
@@ -71,23 +78,26 @@
           <thead>
             <tr>
               <th>期数</th>
-              <th>{{ countTitles.stage }}</th>
-              <th>{{ countTitles.excellent }}</th>
-              <th>{{ countTitles.thumbs }}</th>
+              <th>{{ category.stage }}</th>
+              <th>{{ category[type === 'examiner' ? 'hot' : 'excellent'] }}</th>
+              <th>{{ category.thumbs }}</th>
             </tr>
           </thead>
           <tbody>
-            <tr v-for="attend in countAttends">
-              <td>{{ attend.idx }}</td>
-              <template v-if="attend.data">
+            <tr v-for="stageInfo in countStages">
+              <td>{{ stageInfo.idx }}</td>
+              <template v-if="stageInfo.data">
                 <td>
                   <i class="highlight">√</i>
                 </td>
-                <td>
-                  <i v-if="attend.data.excellent">√</i>
+                <td v-if="type === 'examiner'">
+                  {{ stageInfo.data.hot || 0 }}
+                </td>
+                <td v-else>
+                  <i v-if="stageInfo.data.excellent">√</i>
                   <i v-else>-</i>
                 </td>
-                <td>{{ attend.data.thumbs || 0 }}</td>
+                <td>{{ stageInfo.data.thumbs || 0 }}</td>
               </template>
               <template v-else>
                 <td v-for="n in 3">-</td>
@@ -100,10 +110,11 @@
   </div>
   <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js" integrity="sha256-ufGElb3TnOtzl5E4c/qQnZFGP+FYEZj5kbSEdJNrw0A=" crossorigin="anonymous"></script> -->
   <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js" integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=" crossorigin="anonymous"></script>
-  <script src="//at.alicdn.com/t/font_1171464_jslj5vgcpe.js"></script>
+  <script src="//at.alicdn.com/t/font_1171464_bxnyo1uvtqp.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
   <script src="../assets/js/multi-sort.js"></script>
   <script src="../assets/js/closest.js"></script>
+  <script src="../assets/js/get-url-param.js"></script>
 
   <script>
     var ONE_SESSION = 100;  // 一届为100期 (1 session = 100 stage)
@@ -111,43 +122,72 @@
     new Vue({
       el: '#app',
       data: {
-        title: '前端晚练课',
+        type: '',
         session: 1,  // 第几届（日常更新）
-        rankings: [],
+        rankings: [],  // 格式化后的排行数据
         modal: {
           isShow: false,
           title: '',
+          data: null,
           posX: 0,
           posY: 0
-        },
-        attends: null,
-        countTitles: {
-          stage: '参与期数',
-          excellent: '优秀回答者',
-          thumbs: '点赞数'
         }
       },
       computed: {
+        // 标题
+        title: function() {
+          return {
+            exerciser: '试炼者排行榜',
+            examiner: '考官排行榜'
+          }[this.type]
+        },
+
+        // 标题图片地址
+        titleImgUrl: function() {
+          return (
+            '../assets/images/title_' +
+            this.type +
+            '-ranking-list.png'
+          )
+        },
+
+        // 统计类目
+        category: function() {
+          return {
+            exerciser: {
+              stage: '参与期数',
+              excellent: '优秀回答',
+              thumbs: '点赞数'
+            },
+            examiner: {
+              stage: '主持期数',
+              hot: '人气值',
+              thumbs: '点赞数'
+            }
+          }[this.type]
+        },
+
         // 期数范围
         stageRange: function() {
           var start = (this.session - 1) * ONE_SESSION + 1;
           var end = this.session * ONE_SESSION;
+
           return [start, end];
         },
 
         // 统计当前用户参与场期的数据
-        countAttends: function() {
+        countStages: function() {
           var start = this.stageRange[0];
-          var attends = this.attends;
+          var details = this.modal.data;
           var result = [];
 
-          if (attends && attends.length) {
+          if (details && details.length) {
             for (var i = 0; i < ONE_SESSION; i++) {
               var temp = { idx: i + start };
 
-              for (var j = 0; j < attends.length; j++) {
-                if (attends[j].stage === temp.idx) {
-                  temp.data = attends[j];
+              for (var j = 0; j < details.length; j++) {
+                if (details[j].stage === temp.idx) {
+                  temp.data = details[j];
                   break;
                 }
               }
@@ -162,71 +202,103 @@
       created: function() {
         var jsonIndex = this.session;
 
-        if (/#[a-zA-Z]+\d+/.test(location.hash)) {
-          this.session = location.hash.replace(/#[a-zA-Z]+(\d+)/, function($0, $1) {
-            return $1
-          });
-        }
+        this.type = this.verifyUrlParam('type', 'exerciser');
+        this.session = this.verifyUrlParam('session', 1);
 
-        // 浏览器标题
-        document.title = this.title + ' (' + this.stageRange.join('-') + '期)';
+        // 浏览器标题：xx排行榜 (m-n期) - 前端晚练课
+        document.title = this.title +
+          ' (' + this.stageRange.join('-') + '期)' +
+          ' - ' + document.title;
 
+        this.reqData(this.session);  // 获取 json 数据
+
+        // 点击空白处关闭弹框
         window.addEventListener('click', (function(e) {
           var el = e.target;
 
           if (this.modal.isShow) {
-            // 点击空白处关闭弹框
             // 排除点击触发按钮和弹出框的情况
             if (!el.closest('a.count-item') && !el.closest('.modal')) {
               this.closeModal();
             }
           }
         }).bind(this), false);
-
-        // 获取 json 数据
-        this.reqData(this.session)
-          .catch(
-            // 获取不到文件时（一般由于 url hash 参数错误），缺省加载第一个
-            (function() {
-              this.session = 1;
-              this.reqData(this.session);
-            }).bind(this)
-          );
       },
       methods: {
         // 拉取数据
         reqData: function(sessionNum) {
           var that = this;
 
-          return axios.get('session' + sessionNum + '.json?' + (+new Date()))
-            .then(function(res) {
-              return res.data;
-            })
+          axios.get('session' + sessionNum + '.json?' + (+new Date()))
+            .then(function(res) { return res.data })
             .then(function(data) {
               data = data.map(function(item) {
-                // 参与期数
-                item.attendNum = item.attends.length;
+                if (that.type === 'examiner') {
+                  // 主持期数
+                  item.hostNum = item.hosts.length;
 
-                // 优秀回答数量
-                item.excellentNum = item.attends.reduce(function(total, attend) {
-                  return total += attend.excellent ? 1 : 0
-                }, 0);
+                  // 人气值
+                  item.hotNum = item.hosts.reduce(function(total, host) {
+                    return total += host.hot || 0
+                  }, 0);
 
-                // 点赞数量
-                item.thumbsNum = item.attends.reduce(function(total, attend) {
-                  return total += attend.thumbs || 0
-                }, 0);
+                  // 点赞数量
+                  item.thumbsNum = item.hosts.reduce(function(total, host) {
+                    return total += host.thumbs || 0
+                  }, 0);
+                } else {
+                  // 参与期数
+                  item.attendNum = item.attends.length;
+
+                  // 优秀回答数量
+                  item.excellentNum = item.attends.reduce(function(total, attend) {
+                    return total += attend.excellent ? 1 : 0
+                  }, 0);
+
+                  // 点赞数量
+                  item.thumbsNum = item.attends.reduce(function(total, attend) {
+                    return total += attend.thumbs || 0
+                  }, 0);
+                }
 
                 return item;
               });
 
-              // 按优秀回答数、点赞数、参与期数多重排序（降序）
-              data.sort(
-                multiSort(['excellentNum', 'thumbsNum', 'attendNum'], true)
-              );
+              if (that.type === 'examiner') {
+                // 按点赞数、人气值、主持期数多重排序（降序）
+                data.sort(
+                  multiSort(['thumbsNum', 'hotNum', 'hostNum'], true)
+                )
+              } else {
+                // 按优秀回答数、点赞数、参与期数多重排序（降序）
+                data.sort(
+                  multiSort(['excellentNum', 'thumbsNum', 'attendNum'], true)
+                )
+              }
 
               that.rankings = data;
             })
+            .catch(function(err) {
+              console.error(err);
+            });
+        },
+
+        // url 参数校验
+        verifyUrlParam: function(name, defValue) {
+          var value = getUrlParam(name);
+
+          if (name === 'type') {
+            // type 参数值非法
+            if (!~['exerciser', 'examiner'].indexOf(value)) {
+              value = defValue;
+            }
+          } else if (name === 'session') {
+            if ((value | 0) !== Number(value)) {  // 非整数的期数
+              value = defValue;
+            }
+          }
+
+          return value;
         },
 
         // 获取用户的 github 头像
@@ -244,13 +316,15 @@
         },
 
         // 展示当前用户的参与场期统计数据
-        showUserAttends: function(e, username) {
+        showUserData: function(e, username) {
           var node = e.target.closest('.count-item');
           var modalHt = 444;
 
           for (var i = 0; i < this.rankings.length; i++) {
             if (this.rankings[i].user === username) {
-              this.attends = this.rankings[i].attends;
+              this.modal.data = this.rankings[i][
+                this.type === 'examiner' ? 'hosts' : 'attends'
+              ];
               break;
             }
           }
@@ -277,6 +351,7 @@
         closeModal: function() {
           this.modal.isShow = false;
           this.modal.title = '';
+          this.modal.data = null;
         }
       }
     });

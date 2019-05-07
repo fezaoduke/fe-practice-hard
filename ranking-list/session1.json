@@ -3,6 +3,9 @@
     "user": "wingmeng",
     "attends": [
       { "stage": 1, "excellent": false, "thumbs": 0 }
+    ],
+    "hosts": [
+      { "stage": 2, "hot": 3, "thumbs": 0 }
     ]
   }
 ]
