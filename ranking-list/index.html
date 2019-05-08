@@ -21,7 +21,7 @@
       <li v-for="rank in rankings">
         <div class="ranking-list-order"></div>
         <div class="ranking-list-main">
-          <img :src="getAvatar(rank.user)" :alt="rank.user">
+          <img :src="getAvatar(rank.user)">
           <a :href="getGitHubPage(rank.user)" target="_blank" rel="noopener noreferrer">
             {{ rank.user }}
           </a>
@@ -200,8 +200,6 @@
         }
       },
       created: function() {
-        var jsonIndex = this.session;
-
         this.type = this.verifyUrlParam('type', 'exerciser');
         this.session = this.verifyUrlParam('session', 1);
 
@@ -210,7 +208,14 @@
           ' (' + this.stageRange.join('-') + '期)' +
           ' - ' + document.title;
 
-        this.reqData(this.session);  // 获取 json 数据
+        this.reqData(this.session)  // 获取 json 数据
+          .catch(
+              // 获取不到文件时（一般由于 session 期数越界），缺省加载第一个
+              (function() {
+                this.session = 1;
+                this.reqData(this.session);
+              }).bind(this)
+          );
 
         // 点击空白处关闭弹框
         window.addEventListener('click', (function(e) {
@@ -229,7 +234,7 @@
         reqData: function(sessionNum) {
           var that = this;
 
-          axios.get('session' + sessionNum + '.json?' + (+new Date()))
+          return axios.get('session' + sessionNum + '.json?' + (+new Date()))
             .then(function(res) { return res.data })
             .then(function(data) {
               data = data.map(function(item) {
@@ -277,9 +282,6 @@
               }
 
               that.rankings = data;
-            })
-            .catch(function(err) {
-              console.error(err);
             });
         },
 
@@ -293,7 +295,7 @@
               value = defValue;
             }
           } else if (name === 'session') {
-            if ((value | 0) !== Number(value)) {  // 非整数的期数
+            if (!(value && (value | 0) === Number(value))) {  // 期数不存在或非整数的期数
               value = defValue;
             }
           }
