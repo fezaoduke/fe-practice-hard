@@ -10,20 +10,24 @@
 [简介 | 愿景 | 角色 | 参与方式 | 激励措施](./about.md)
 </div>
 
-## 考官轮值表（第1-10期）
+### 本期练习传送门
+
+- [第 2 期(2019-05-09)：定时输出数字](https://github.com/fezaoduke/fe-practice-hard/issues/3)
+
+### 考官轮值表（第1-10期）
 
   - 第 1 期(2019-05-08 周三)：wingmeng
   - 第 2 期(2019-05-09 周四)：491874938
   - 第 3 期(2019-05-10 周五)：binperson
 
-## 榜单
+### 榜单
 
-- ### [试炼者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?session=1)
-- ### [考官排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?type=examiner&session=1)
-- ### ~~[名人堂（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/hall-of-fame/index.html?session=1)~~ （建设中）
-- ### ~~[金牌考官（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/gold-examiner/index.html?type=examiner&session=1)~~ （建设中）
+- #### [试炼者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?session=1)
+- #### [考官排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?type=examiner&session=1)
+- #### ~~[名人堂（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/hall-of-fame/)~~ （建设中）
+- #### ~~[金牌考官（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/gold-examiner/index.html?type=examiner)~~ （建设中）
 
-## 前端早读课
+### 前端早读课
 
 欢迎关注 `前端早读课` 公众号，一起开启朝读晚练的励志人生吧！
 
