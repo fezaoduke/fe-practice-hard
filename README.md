@@ -17,15 +17,15 @@
 ### 考官轮值表（第1-10期）
 
   - 第 1 期(2019-05-08 周三)：wingmeng
-  - 第 2 期(2019-05-09 周四)：491874938
+  - 第 2 期(2019-05-09 周四)：wingmeng
   - 第 3 期(2019-05-10 周五)：binperson
 
 ### 榜单
 
 - #### [试炼者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?session=1)
 - #### [考官排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?type=examiner&session=1)
-- #### ~~[名人堂（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/hall-of-fame/)~~ （建设中）
-- #### ~~[金牌考官（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/gold-examiner/index.html?type=examiner)~~ （建设中）
+- #### [名人堂](https://fezaoduke.github.io/fe-practice-hard/honor-wall/)
+- #### [金牌考官](https://fezaoduke.github.io/fe-practice-hard/honor-wall/index.html?type=examiner)
 
 ### 前端早读课
 
