@@ -18,7 +18,7 @@
     </header>
 
     <ol class="ranking-list">
-      <li v-for="rank in rankings">
+      <li v-for="rank in rankings" v-if="checkStage(rank)">
         <div class="ranking-list-order"></div>
         <div class="ranking-list-main">
           <img :src="getAvatar(rank.user)">
@@ -41,12 +41,7 @@
             :title="category[type === 'examiner' ? 'hot' : 'excellent']"
           >
             <svg class="icon" aria-hidden="true">
-              <template v-if="type === 'examiner'">
-                <use xlink:href="#icon-hot"></use>
-              </template>
-              <template v-else>
-                <use xlink:href="#icon-excellent"></use>
-              </template>
+              <use :xlink:href="'#icon-hot' + (type === 'examiner' ? 'hot' : 'excellent')"></use>
             </svg>
             <b>{{ rank[type === 'examiner' ? 'hotNum' : 'excellentNum'] }}</b>
           </span>
@@ -94,7 +89,7 @@
                   {{ stageInfo.data.hot || 0 }}
                 </td>
                 <td v-else>
-                  <i v-if="stageInfo.data.excellent">√</i>
+                  <i class="highlight" v-if="stageInfo.data.excellent">√</i>
                   <i v-else>-</i>
                 </td>
                 <td>{{ stageInfo.data.thumbs || 0 }}</td>
@@ -108,9 +103,9 @@
       </div>
     </div>
   </div>
-  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js" integrity="sha256-ufGElb3TnOtzl5E4c/qQnZFGP+FYEZj5kbSEdJNrw0A=" crossorigin="anonymous"></script> -->
-  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js" integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=" crossorigin="anonymous"></script>
-  <script src="//at.alicdn.com/t/font_1171464_bxnyo1uvtqp.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js" integrity="sha256-ufGElb3TnOtzl5E4c/qQnZFGP+FYEZj5kbSEdJNrw0A=" crossorigin="anonymous"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js" integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=" crossorigin="anonymous"></script> -->
+  <script src="//at.alicdn.com/t/font_1171464_4vo2bprjxsk.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
   <script src="../assets/js/multi-sort.js"></script>
   <script src="../assets/js/closest.js"></script>
@@ -315,6 +310,12 @@
 
         checkActive: function(username) {
           return this.modal.title === username;
+        },
+
+        // 检查当前 type 对应的场期是否为空，为空则不显示
+        checkStage: function(data) {
+          var field = this.type === 'examiner' ? 'hosts' : 'attends';
+          return !!data[field].length;
         },
 
         // 展示当前用户的参与场期统计数据
