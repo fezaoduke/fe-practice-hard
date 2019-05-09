@@ -2,10 +2,42 @@
   {
     "user": "wingmeng",
     "attends": [
+      { "stage": 0, "excellent": false, "thumbs": 0 }
+    ],
+    "hosts": [
+      { "stage": 1, "hot": 0, "thumbs": 1 }
+    ]
+  }, {
+    "user": "liwenkang",
+    "attends": [
+      { "stage": 1, "excellent": false, "thumbs": 1 }
+    ],
+    "hosts": [
+      { "stage": 0, "hot": 0, "thumbs": 0 }
+    ]
+  }, {
+    "user": "cnyballk",
+    "attends": [
+      { "stage": 1, "excellent": true, "thumbs": 3 }
+    ],
+    "hosts": [
+      { "stage": 0, "hot": 0, "thumbs": 0 }
+    ]
+  }, {
+    "user": "limoning",
+    "attends": [
       { "stage": 1, "excellent": false, "thumbs": 0 }
     ],
     "hosts": [
-      { "stage": 2, "hot": 3, "thumbs": 0 }
+      { "stage": 0, "hot": 0, "thumbs": 0 }
+    ]
+  }, {
+    "user": "ahao430",
+    "attends": [
+      { "stage": 1, "excellent": false, "thumbs": 0 }
+    ],
+    "hosts": [
+      { "stage": 0, "hot": 0, "thumbs": 0 }
     ]
   }
 ]
