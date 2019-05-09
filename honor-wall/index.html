@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" href="../assets/main.css">
+  <title>前端晚练课</title>
+  <style>
+      .section-body > li {height: 180px;}
+
+      .hexagon {
+        width: 180px;
+        height: 100%;
+      }
+
+      .user-info {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: .875rem;
+      }
+
+      .user-info > img {
+        display: block;
+        width: 42px;
+        margin: 0 auto 6px;
+        border-radius: 50%;
+      }
+    </style>
+</head>
+<body>
+  <div id="app" v-cloak>
+    <header>
+      <svg class="icon" aria-hidden="true" style="width:116px; height:116px">
+        <use :xlink:href="'#icon-' + (type === 'examiner' ? 'medal' : 'certificate')"></use>
+      </svg>
+      <h1 class="app-name">
+        <img :src="titleImgUrl" draggable="false" :alt="title">
+      </h1>
+    </header>
+
+    <section class="section" v-for="(session, idx) in sessions">
+      <div class="section-head">
+        <h2 class="section-title">
+          <span>
+            第 {{ idx + 1 }} 届<small>（{{ getStageRange(idx).join('-') }}期）</small>
+          </span>
+        </h2>
+      </div>
+      <ul class="section-body">
+        <li v-for="n in 3" :class="{weak: !session.winners[n - 1]}">
+          <svg class="hexagon" aria-hidden="true">
+            <use :xlink:href="'#icon-' + medalName[n - 1]"></use>
+          </svg>
+          <template v-if="session.winners[n - 1]">
+            <a class="user-info" target="_blank" rel="noopener noreferrer"
+              :href="getGitHubPage(session.winners[n - 1])"
+            >
+              <img :src="getAvatar(session.winners[n - 1])">
+              <span>{{ session.winners[n - 1] }}</span>
+            </a>
+          </template>
+          <template v-else>
+            <span class="user-info">虚位以待</span>
+          </template>
+        </li>
+      </ul>
+    </section>
+  </div>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js" integrity="sha256-ufGElb3TnOtzl5E4c/qQnZFGP+FYEZj5kbSEdJNrw0A=" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js" integrity="sha256-chlNFSVx3TdcQ2Xlw7SvnbLAavAQLO0Y/LBiWX04viY=" crossorigin="anonymous"></script>
+  <script src="//at.alicdn.com/t/font_1171464_4vo2bprjxsk.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios@0.18.0/dist/axios.min.js" integrity="sha256-mpnrJ5DpEZZkwkE1ZgkEQQJW/46CSEh/STrZKOB/qoM=" crossorigin="anonymous"></script>
+  <script src="../assets/js/multi-sort.js"></script>
+  <script src="../assets/js/get-url-param.js"></script>
+
+  <script>
+    var ONE_SESSION = 100;  // 一届为100期 (1 session = 100 stage)
+
+    new Vue({
+      el: '#app',
+      data: {
+        type: '',
+        medalName: ['silver', 'gold', 'bronze'],
+        sessions: []
+      },
+      computed: {
+        // 标题
+        title: function() {
+          return {
+            exerciser: '名人堂',
+            examiner: '金牌考官'
+          }[this.type]
+        },
+
+        // 标题图片地址
+        titleImgUrl: function() {
+          var imgName = {
+            exerciser: 'hall-of-fame',
+            examiner: 'gold-examiner'
+          }[this.type];
+
+          return '../assets/images/title_' + imgName + '.png';
+        }
+      },
+      created: function() {
+        this.type = this.verifyUrlParam('type', 'exerciser');
+        document.title = this.title + ' - ' + document.title;
+        this.reqData();
+      },
+      methods: {
+        // 拉取数据
+        reqData: function() {
+          var that = this;
+          var fileName = this.type === 'examiner' ? 'gold-examiner' : 'hall-of-fame';
+
+          return axios.get(fileName + '.json?' + (+new Date()))
+            .then(function(res) { return res.data })
+            .then(function(data) {
+              data.sort(multiSort(['session']));  // 根据届数升序排列
+              that.sessions = data;
+            });
+        },
+
+        // url 参数校验
+        verifyUrlParam: function(name, defValue) {
+          var value = getUrlParam(name);
+
+          if (name === 'type') {
+            // type 参数值非法
+            if (!~['exerciser', 'examiner'].indexOf(value)) {
+              value = defValue;
+            }
+          } else if (name === 'session') {
+            if (!(value && (value | 0) === Number(value))) {  // 期数不存在或非整数的期数
+              value = defValue;
+            }
+          }
+
+          return value;
+        },
+
+        // 获取用户的 github 头像
+        getAvatar: function(username) {
+          return 'https://avatars.githubusercontent.com/' + username + '?s=52&v=4';
+        },
+
+        // 获取用户的 github 主页地址
+        getGitHubPage: function(username) {
+          return 'https://github.com/' + username;
+        },
+
+        // 获取期数范围
+        getStageRange: function(n) {
+          var start = n * ONE_SESSION + 1;
+          var end = start + ONE_SESSION;
+
+          return [start, end];
+        }
+      }
+    });
+  </script>
+</body>
+</html>
