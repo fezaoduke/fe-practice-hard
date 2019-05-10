@@ -41,7 +41,7 @@
             :title="category[type === 'examiner' ? 'hot' : 'excellent']"
           >
             <svg class="icon" aria-hidden="true">
-              <use :xlink:href="'#icon-hot' + (type === 'examiner' ? 'hot' : 'excellent')"></use>
+              <use :xlink:href="'#icon-' + (type === 'examiner' ? 'hot' : 'excellent')"></use>
             </svg>
             <b>{{ rank[type === 'examiner' ? 'hotNum' : 'excellentNum'] }}</b>
           </span>
