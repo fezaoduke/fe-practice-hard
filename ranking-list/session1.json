@@ -10,7 +10,8 @@
   }, {
     "user": "liwenkang",
     "attends": [
-      { "stage": 1, "excellent": false, "thumbs": 1 }
+      { "stage": 1, "excellent": 0, "thumbs": 1 },
+      { "stage": 2, "excellent": 1, "thumbs": 1 }
     ],
     "hosts": [
 
@@ -18,7 +19,8 @@
   }, {
     "user": "cnyballk",
     "attends": [
-      { "stage": 1, "excellent": true, "thumbs": 3 }
+      { "stage": 1, "excellent": 1, "thumbs": 3 },
+      { "stage": 2, "excellent": 0, "thumbs": 1 }
     ],
     "hosts": [
 
@@ -26,7 +28,7 @@
   }, {
     "user": "limoning",
     "attends": [
-      { "stage": 1, "excellent": false, "thumbs": 0 }
+      { "stage": 1, "excellent": 0, "thumbs": 0 }
     ],
     "hosts": [
 
@@ -34,7 +36,23 @@
   }, {
     "user": "ahao430",
     "attends": [
-      { "stage": 1, "excellent": false, "thumbs": 0 }
+      { "stage": 1, "excellent": 0, "thumbs": 0 }
+    ],
+    "hosts": [
+
+    ]
+  }, {
+    "user": "Wxh16144",
+    "attends": [
+      { "stage": 2, "excellent": 0, "thumbs": 4 }
+    ],
+    "hosts": [
+
+    ]
+  }, {
+    "user": "AMY-Y",
+    "attends": [
+      { "stage": 2, "excellent": 0, "thumbs": 0 }
     ],
     "hosts": [
 
