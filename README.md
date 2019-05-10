@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 2 期(2019-05-09)：定时输出数字](https://github.com/fezaoduke/fe-practice-hard/issues/3)
+- [第 3 期(2019-05-10)：无重复字符的最长子串](https://github.com/fezaoduke/fe-practice-hard/issues/4)
 
 ### 考官轮值表（第1-10期）
 
