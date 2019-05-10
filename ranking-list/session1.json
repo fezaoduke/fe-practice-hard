@@ -5,7 +5,8 @@
 
     ],
     "hosts": [
-      { "stage": 1, "hot": 0, "thumbs": 1 }
+      { "stage": 1, "hot": 4, "thumbs": 1 },
+      { "stage": 2, "hot": 5, "thumbs": 0 }
     ]
   }, {
     "user": "liwenkang",
@@ -53,6 +54,14 @@
     "user": "AMY-Y",
     "attends": [
       { "stage": 2, "excellent": 0, "thumbs": 0 }
+    ],
+    "hosts": [
+
+    ]
+  }, {
+    "user": "binperson",
+    "attends": [
+
     ],
     "hosts": [
 
