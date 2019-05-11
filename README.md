@@ -12,13 +12,14 @@
 
 ### 本期练习传送门
 
-- [第 3 期(2019-05-10)：无重复字符的最长子串](https://github.com/fezaoduke/fe-practice-hard/issues/4)
+- [第 4 期(2019-05-11)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/5)
 
 ### 考官轮值表（第1-10期）
 
   - 第 1 期(2019-05-08 周三)：wingmeng
   - 第 2 期(2019-05-09 周四)：wingmeng
   - 第 3 期(2019-05-10 周五)：binperson
+  - 第 4 期(2019-05-11 周六)：wingmeng
 
 ### 榜单
 
