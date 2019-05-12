@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/6)
+- [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/7)
 
 ### 考官轮值表（第1-10期）
 
