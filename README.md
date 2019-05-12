@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 4 期(2019-05-11)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/5)
+- [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/6)
 
 ### 考官轮值表（第1-10期）
 
@@ -20,6 +20,7 @@
   - 第 2 期(2019-05-09 周四)：wingmeng
   - 第 3 期(2019-05-10 周五)：binperson
   - 第 4 期(2019-05-11 周六)：wingmeng
+  - 第 5 期(2019-05-12 周日)：wingmeng
 
 ### 榜单
 
