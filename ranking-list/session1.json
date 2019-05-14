@@ -8,7 +8,8 @@
       { "stage": 1, "hot": 4, "thumbs": 1 },
       { "stage": 2, "hot": 5, "thumbs": 0 },
       { "stage": 4, "hot": 1, "thumbs": 0 },
-      { "stage": 5, "hot": 2, "thumbs": 0 }
+      { "stage": 5, "hot": 2, "thumbs": 0 },
+      { "stage": 6, "hot": 2, "thumbs": 0 }
     ]
   }, {
     "user": "liwenkang",
@@ -17,7 +18,8 @@
       { "stage": 2, "excellent": 1, "thumbs": 1 },
       { "stage": 3, "excellent": 0, "thumbs": 0 },
       { "stage": 4, "excellent": 1, "thumbs": 4 },
-      { "stage": 5, "excellent": 1, "thumbs": 1 }
+      { "stage": 5, "excellent": 1, "thumbs": 1 },
+      { "stage": 6, "excellent": 1, "thumbs": 1 }
     ],
     "hosts": [
 
@@ -52,7 +54,8 @@
   }, {
     "user": "Wxh16144",
     "attends": [
-      { "stage": 2, "excellent": 0, "thumbs": 4 }
+      { "stage": 2, "excellent": 0, "thumbs": 4 },
+      { "stage": 6, "excellent": 1, "thumbs": 8 }
     ],
     "hosts": [
 
