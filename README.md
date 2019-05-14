@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 6 期(2019-05-13)：获取过去n天的日期](https://github.com/fezaoduke/fe-practice-hard/issues/9)
+- [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
 
 ### 考官轮值表（第1-10期）
 
