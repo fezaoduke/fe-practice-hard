@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
+- [第 8 期(2019-05-15)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
 
 ### 考官轮值表（第1-10期）
 
@@ -23,6 +23,7 @@
   - 第 5 期(2019-05-12 周日)：wingmeng
   - 第 6 期(2019-05-13 周一)：wingmeng
   - 第 7 期(2019-05-14 周二)：wingmeng
+  - 第 8 期(2019-05-15 周三)：wingmeng
 
 ### 榜单
 
