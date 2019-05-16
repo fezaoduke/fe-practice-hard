@@ -9,7 +9,9 @@
       { "stage": 2, "hot": 5, "thumbs": 0 },
       { "stage": 4, "hot": 1, "thumbs": 0 },
       { "stage": 5, "hot": 2, "thumbs": 0 },
-      { "stage": 6, "hot": 2, "thumbs": 0 }
+      { "stage": 6, "hot": 2, "thumbs": 0 },
+      { "stage": 7, "hot": 2, "thumbs": 0 },
+      { "stage": 8, "hot": 3, "thumbs": 0 }
     ]
   }, {
     "user": "liwenkang",
@@ -20,7 +22,8 @@
       { "stage": 4, "excellent": 1, "thumbs": 4 },
       { "stage": 5, "excellent": 1, "thumbs": 1 },
       { "stage": 6, "excellent": 1, "thumbs": 1 },
-      { "stage": 7, "excellent": 0, "thumbs": 0 }
+      { "stage": 7, "excellent": 0, "thumbs": 0 },
+      { "stage": 8, "excellent": 0, "thumbs": 0 }
     ],
     "hosts": [
 
@@ -47,7 +50,8 @@
   }, {
     "user": "ahao430",
     "attends": [
-      { "stage": 1, "excellent": 0, "thumbs": 0 }
+      { "stage": 1, "excellent": 0, "thumbs": 0 },
+      { "stage": 8, "excellent": 0, "thumbs": 0 }
     ],
     "hosts": [
 
@@ -65,7 +69,8 @@
     "user": "AMY-Y",
     "attends": [
       { "stage": 2, "excellent": 0, "thumbs": 0 },
-      { "stage": 7, "excellent": 1, "thumbs": 0 }
+      { "stage": 7, "excellent": 1, "thumbs": 0 },
+      { "stage": 8, "excellent": 1, "thumbs": 1 }
     ],
     "hosts": [
 
