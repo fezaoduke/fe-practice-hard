@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 8 期(2019-05-15)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
+- [第 9 期(2019-05-16)：CSS兼容性验证](https://github.com/fezaoduke/fe-practice-hard/issues/11)
 
 ### 考官轮值表（第1-10期）
 
@@ -24,6 +24,7 @@
   - 第 6 期(2019-05-13 周一)：wingmeng
   - 第 7 期(2019-05-14 周二)：wingmeng
   - 第 8 期(2019-05-15 周三)：wingmeng
+  - 第 9 期(2019-05-16 周四)：wingmeng
 
 ### 榜单
 
