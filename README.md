@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 9 期(2019-05-16)：CSS兼容性验证](https://github.com/fezaoduke/fe-practice-hard/issues/11)
+- [第 10 期(2019-05-17)：JSON.parse方法polyfill](https://github.com/fezaoduke/fe-practice-hard/issues/12)
 
 ### 考官轮值表（第1-10期）
 
@@ -25,6 +25,7 @@
   - 第 7 期(2019-05-14 周二)：wingmeng
   - 第 8 期(2019-05-15 周三)：wingmeng
   - 第 9 期(2019-05-16 周四)：wingmeng
+  - 第 9 期(2019-05-17 周五)：wingmeng
 
 ### 榜单
 
