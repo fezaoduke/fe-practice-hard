@@ -11,7 +11,8 @@
       { "stage": 5, "hot": 2, "thumbs": 0 },
       { "stage": 6, "hot": 2, "thumbs": 0 },
       { "stage": 7, "hot": 2, "thumbs": 0 },
-      { "stage": 8, "hot": 3, "thumbs": 0 }
+      { "stage": 8, "hot": 3, "thumbs": 0 },
+      { "stage": 9, "hot": 1, "thumbs": 0 }
     ]
   }, {
     "user": "liwenkang",
@@ -23,7 +24,8 @@
       { "stage": 5, "excellent": 1, "thumbs": 1 },
       { "stage": 6, "excellent": 1, "thumbs": 1 },
       { "stage": 7, "excellent": 0, "thumbs": 0 },
-      { "stage": 8, "excellent": 0, "thumbs": 0 }
+      { "stage": 8, "excellent": 0, "thumbs": 0 },
+      { "stage": 9, "excellent": 0, "thumbs": 0 }
     ],
     "hosts": [
 
