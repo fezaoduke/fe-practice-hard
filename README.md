@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 10 期(2019-05-17)：JSON.parse方法polyfill](https://github.com/fezaoduke/fe-practice-hard/issues/12)
+- [第 11 期(2019-05-18)：arguments与'use strict' ](https://github.com/fezaoduke/fe-practice-hard/issues/13)
 
 ### 考官轮值表（第1-10期）
 
@@ -26,6 +26,7 @@
   - 第 8 期(2019-05-15 周三)：wingmeng
   - 第 9 期(2019-05-16 周四)：wingmeng
   - 第 9 期(2019-05-17 周五)：wingmeng
+  - 第 10 期(2019-05-18 周六)：AMY-Y
 
 ### 榜单
 
