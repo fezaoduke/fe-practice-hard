@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 11 期(2019-05-18)：arguments与'use strict' ](https://github.com/fezaoduke/fe-practice-hard/issues/13)
+- [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
 
 ### 考官轮值表（第1-10期）
 
@@ -27,6 +27,7 @@
   - 第 9 期(2019-05-16 周四)：wingmeng
   - 第 9 期(2019-05-17 周五)：wingmeng
   - 第 10 期(2019-05-18 周六)：AMY-Y
+  - 第 11 期(2019-05-19 周日)：wingmeng
 
 ### 榜单
 
