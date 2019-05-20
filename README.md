@@ -14,8 +14,10 @@
 
 - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
 
-### 考官轮值表（第1-10期）
+### 考官轮值表
 
+<div style="max-height:300px; overflow:auto">
+  
   - 第 1 期(2019-05-08 周三)：wingmeng
   - 第 2 期(2019-05-09 周四)：wingmeng
   - 第 3 期(2019-05-10 周五)：binperson
@@ -28,6 +30,10 @@
   - 第 9 期(2019-05-17 周五)：wingmeng
   - 第 10 期(2019-05-18 周六)：AMY-Y
   - 第 11 期(2019-05-19 周日)：wingmeng
+  - 第 12 期(2019-05-20 周一)：liwenkang
+  - 第 13 期(2019-05-21 周二)：runkb24
+  
+</div>  
 
 ### 榜单
 
