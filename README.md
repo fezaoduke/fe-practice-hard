@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
+- [第 14 期(2019-05-21)：类型判断](https://github.com/fezaoduke/fe-practice-hard/issues/16)
 
 ### 考官轮值表
 
@@ -30,8 +30,8 @@
   - 第 9 期(2019-05-17 周五)：wingmeng
   - 第 10 期(2019-05-18 周六)：AMY-Y
   - 第 11 期(2019-05-19 周日)：wingmeng
-  - 第 12 期(2019-05-20 周一)：liwenkang
-  - 第 13 期(2019-05-21 周二)：runkb24
+  - 第 12 期(2019-05-20 周一)：wingmeng
+  - 第 13 期(2019-05-21 周二)：AMY-Y
   
 </div>  
 
