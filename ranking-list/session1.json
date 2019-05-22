@@ -76,7 +76,9 @@
       { "stage": 2, "excellent": 0, "thumbs": 0 },
       { "stage": 7, "excellent": 1, "thumbs": 0 },
       { "stage": 8, "excellent": 1, "thumbs": 1 },
-      { "stage": 10, "excellent": 1, "thumbs": 1 }
+      { "stage": 10, "excellent": 1, "thumbs": 1 },
+      { "stage": 12, "excellent": 1, "thumbs": 0 },
+      { "stage": 14, "excellent": 0, "thumbs": 0 }
     ],
     "hosts": [
 
