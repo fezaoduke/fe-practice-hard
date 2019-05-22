@@ -12,28 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 14 期(2019-05-21)：类型判断](https://github.com/fezaoduke/fe-practice-hard/issues/16)
-
-### 考官轮值表
-
-<div style="max-height:300px; overflow:auto">
-  
-  - 第 1 期(2019-05-08 周三)：wingmeng
-  - 第 2 期(2019-05-09 周四)：wingmeng
-  - 第 3 期(2019-05-10 周五)：binperson
-  - 第 4 期(2019-05-11 周六)：wingmeng
-  - 第 5 期(2019-05-12 周日)：wingmeng
-  - 第 6 期(2019-05-13 周一)：wingmeng
-  - 第 7 期(2019-05-14 周二)：wingmeng
-  - 第 8 期(2019-05-15 周三)：wingmeng
-  - 第 9 期(2019-05-16 周四)：wingmeng
-  - 第 9 期(2019-05-17 周五)：wingmeng
-  - 第 10 期(2019-05-18 周六)：AMY-Y
-  - 第 11 期(2019-05-19 周日)：wingmeng
-  - 第 12 期(2019-05-20 周一)：wingmeng
-  - 第 13 期(2019-05-21 周二)：AMY-Y
-  
-</div>  
+- [第 15 期(2019-05-22)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
 
 ### 榜单
 
