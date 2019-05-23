@@ -12,13 +12,13 @@
   <div id="app" v-cloak>
     <header>
       <h1 class="app-name">
-        <img :src="titleImgUrl" draggable="false" :alt="title">
+        <img src="../assets/images/title_exerciser-ranking-list.png" draggable="false" :alt="title">
         <span>{{ stageRange.join('-') }}期</span>
       </h1>
     </header>
 
     <ol class="ranking-list">
-      <li v-for="rank in rankings" v-if="checkStage(rank)">
+      <li v-for="rank in rankings" v-if="rank.attends.length">
         <div class="ranking-list-order"></div>
         <div class="ranking-list-main">
           <img :src="getAvatar(rank.user)">
@@ -35,15 +35,13 @@
             <svg class="icon" aria-hidden="true">
               <use xlink:href="#icon-count"></use>
             </svg>
-            <b>{{ rank[type === 'examiner' ? 'hosts' : 'attends'].length }}</b>
+            <b>{{ rank.attends.length }}</b>
           </a>
-          <span class="count-item"
-            :title="category[type === 'examiner' ? 'hot' : 'excellent']"
-          >
+          <span class="count-item" :title="category.excellent">
             <svg class="icon" aria-hidden="true">
-              <use :xlink:href="'#icon-' + (type === 'examiner' ? 'hot' : 'excellent')"></use>
+              <use xlink:href="#icon-excellent"></use>
             </svg>
-            <b>{{ rank[type === 'examiner' ? 'hotNum' : 'excellentNum'] }}</b>
+            <b>{{ rank.excellentNum }}</b>
           </span>
           <span class="count-item" :title="category['thumbs']">
             <svg class="icon" aria-hidden="true">
@@ -74,7 +72,7 @@
             <tr>
               <th>期数</th>
               <th>{{ category.stage }}</th>
-              <th>{{ category[type === 'examiner' ? 'hot' : 'excellent'] }}</th>
+              <th>{{ category.excellent }}</th>
               <th>{{ category.thumbs }}</th>
             </tr>
           </thead>
@@ -85,10 +83,7 @@
                 <td>
                   <i class="highlight">√</i>
                 </td>
-                <td v-if="type === 'examiner'">
-                  {{ stageInfo.data.hot || 0 }}
-                </td>
-                <td v-else>
+                <td>
                   <i class="highlight" v-if="stageInfo.data.excellent">√</i>
                   <i v-else>-</i>
                 </td>
@@ -117,7 +112,12 @@
     new Vue({
       el: '#app',
       data: {
-        type: '',
+        title: '试炼者排行榜',
+        category: {
+          stage: '参与期数',
+          excellent: '优秀回答',
+          thumbs: '点赞数'
+        },
         session: 1,  // 第几届（日常更新）
         rankings: [],  // 格式化后的排行数据
         modal: {
@@ -129,39 +129,6 @@
         }
       },
       computed: {
-        // 标题
-        title: function() {
-          return {
-            exerciser: '试炼者排行榜',
-            examiner: '考官排行榜'
-          }[this.type]
-        },
-
-        // 标题图片地址
-        titleImgUrl: function() {
-          return (
-            '../assets/images/title_' +
-            this.type +
-            '-ranking-list.png'
-          )
-        },
-
-        // 统计类目
-        category: function() {
-          return {
-            exerciser: {
-              stage: '参与期数',
-              excellent: '优秀回答',
-              thumbs: '点赞数'
-            },
-            examiner: {
-              stage: '主持期数',
-              hot: '人气值',
-              thumbs: '点赞数'
-            }
-          }[this.type]
-        },
-
         // 期数范围
         stageRange: function() {
           var start = (this.session - 1) * ONE_SESSION + 1;
@@ -195,7 +162,6 @@
         }
       },
       created: function() {
-        this.type = this.verifyUrlParam('type', 'exerciser');
         this.session = this.verifyUrlParam('session', 1);
 
         // 浏览器标题：xx排行榜 (m-n期) - 前端晚练课
@@ -233,48 +199,26 @@
             .then(function(res) { return res.data })
             .then(function(data) {
               data = data.map(function(item) {
-                if (that.type === 'examiner') {
-                  // 主持期数
-                  item.hostNum = item.hosts.length;
+                // 参与期数
+                item.attendNum = item.attends.length;
 
-                  // 人气值
-                  item.hotNum = item.hosts.reduce(function(total, host) {
-                    return total += host.hot || 0
-                  }, 0);
+                // 优秀回答数量
+                item.excellentNum = item.attends.reduce(function(total, attend) {
+                  return total += attend.excellent ? 1 : 0
+                }, 0);
 
-                  // 点赞数量
-                  item.thumbsNum = item.hosts.reduce(function(total, host) {
-                    return total += host.thumbs || 0
-                  }, 0);
-                } else {
-                  // 参与期数
-                  item.attendNum = item.attends.length;
-
-                  // 优秀回答数量
-                  item.excellentNum = item.attends.reduce(function(total, attend) {
-                    return total += attend.excellent ? 1 : 0
-                  }, 0);
-
-                  // 点赞数量
-                  item.thumbsNum = item.attends.reduce(function(total, attend) {
-                    return total += attend.thumbs || 0
-                  }, 0);
-                }
+                // 点赞数量
+                item.thumbsNum = item.attends.reduce(function(total, attend) {
+                  return total += attend.thumbs || 0
+                }, 0);
 
                 return item;
               });
 
-              if (that.type === 'examiner') {
-                // 按点赞数、人气值、主持期数多重排序（降序）
-                data.sort(
-                  multiSort(['thumbsNum', 'hotNum', 'hostNum'], true)
-                )
-              } else {
-                // 按优秀回答数、点赞数、参与期数多重排序（降序）
-                data.sort(
-                  multiSort(['excellentNum', 'thumbsNum', 'attendNum'], true)
-                )
-              }
+              // 按优秀回答数、点赞数、参与期数多重排序（降序）
+              data.sort(
+                multiSort(['excellentNum', 'thumbsNum', 'attendNum'], true)
+              )
 
               that.rankings = data;
             });
@@ -284,12 +228,7 @@
         verifyUrlParam: function(name, defValue) {
           var value = getUrlParam(name);
 
-          if (name === 'type') {
-            // type 参数值非法
-            if (!~['exerciser', 'examiner'].indexOf(value)) {
-              value = defValue;
-            }
-          } else if (name === 'session') {
+          if (name === 'session') {
             if (!(value && (value | 0) === Number(value))) {  // 期数不存在或非整数的期数
               value = defValue;
             }
@@ -312,12 +251,6 @@
           return this.modal.title === username;
         },
 
-        // 检查当前 type 对应的场期是否为空，为空则不显示
-        checkStage: function(data) {
-          var field = this.type === 'examiner' ? 'hosts' : 'attends';
-          return !!data[field].length;
-        },
-
         // 展示当前用户的参与场期统计数据
         showUserData: function(e, username) {
           var node = e.target.closest('.count-item');
@@ -325,9 +258,7 @@
 
           for (var i = 0; i < this.rankings.length; i++) {
             if (this.rankings[i].user === username) {
-              this.modal.data = this.rankings[i][
-                this.type === 'examiner' ? 'hosts' : 'attends'
-              ];
+              this.modal.data = this.rankings[i].attends;
               break;
             }
           }
