@@ -17,9 +17,7 @@
 ### 榜单
 
 - #### [试炼者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?session=1)
-- #### [考官排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?type=examiner&session=1)
 - #### [名人堂](https://fezaoduke.github.io/fe-practice-hard/honor-wall/)
-- #### [金牌考官](https://fezaoduke.github.io/fe-practice-hard/honor-wall/index.html?type=examiner)
 
 ### 前端早读课
 
