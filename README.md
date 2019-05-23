@@ -12,7 +12,7 @@
 
 ### 本期练习传送门
 
-- [第 15 期(2019-05-22)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
+- [第16期(2019-5-23)：浅克隆](https://github.com/fezaoduke/fe-practice-hard/issues/18)
 
 ### 榜单
 
