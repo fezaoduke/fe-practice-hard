@@ -36,10 +36,10 @@
   <div id="app" v-cloak>
     <header>
       <svg class="icon" aria-hidden="true" style="width:116px; height:116px">
-        <use :xlink:href="'#icon-' + (type === 'examiner' ? 'medal' : 'certificate')"></use>
+        <use xlink:href="#icon-certificate"></use>
       </svg>
       <h1 class="app-name">
-        <img :src="titleImgUrl" draggable="false" :alt="title">
+        <img src="../assets/images/title_hall-of-fame.png" draggable="false" :alt="title">
       </h1>
     </header>
 
@@ -84,31 +84,11 @@
     new Vue({
       el: '#app',
       data: {
-        type: '',
+        title: '名人堂',
         medalName: ['silver', 'gold', 'bronze'],
         sessions: []
       },
-      computed: {
-        // 标题
-        title: function() {
-          return {
-            exerciser: '名人堂',
-            examiner: '金牌考官'
-          }[this.type]
-        },
-
-        // 标题图片地址
-        titleImgUrl: function() {
-          var imgName = {
-            exerciser: 'hall-of-fame',
-            examiner: 'gold-examiner'
-          }[this.type];
-
-          return '../assets/images/title_' + imgName + '.png';
-        }
-      },
       created: function() {
-        this.type = this.verifyUrlParam('type', 'exerciser');
         document.title = this.title + ' - ' + document.title;
         this.reqData();
       },
@@ -116,32 +96,13 @@
         // 拉取数据
         reqData: function() {
           var that = this;
-          var fileName = this.type === 'examiner' ? 'gold-examiner' : 'hall-of-fame';
 
-          return axios.get(fileName + '.json?' + (+new Date()))
+          return axios.get('hall-of-fame.json?' + (+new Date()))
             .then(function(res) { return res.data })
             .then(function(data) {
               data.sort(multiSort(['session']));  // 根据届数升序排列
               that.sessions = data;
             });
-        },
-
-        // url 参数校验
-        verifyUrlParam: function(name, defValue) {
-          var value = getUrlParam(name);
-
-          if (name === 'type') {
-            // type 参数值非法
-            if (!~['exerciser', 'examiner'].indexOf(value)) {
-              value = defValue;
-            }
-          } else if (name === 'session') {
-            if (!(value && (value | 0) === Number(value))) {  // 期数不存在或非整数的期数
-              value = defValue;
-            }
-          }
-
-          return value;
         },
 
         // 获取用户的 github 头像
