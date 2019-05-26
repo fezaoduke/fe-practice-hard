@@ -2,25 +2,93 @@
   <img width="200" src="./assets/images/logo.svg" alt="logo">
 </p>
 
-<h1 align="center">前端晚练课</h1>
+<h1 align="center">前端刻意练习</h1>
 
-<div align="center">
-<p>每天一道题，提升前端技术水平的刻意训练</p>
+<p align="center">每天一个前端知识点，修炼前端内功</p>
 
-[简介 | 愿景 | 角色 | 参与方式 | 激励措施](./about.md)
-</div>
+> 很多时候，我们在看书或网上的教程时“一学就会”，可真正解决实际问题时往往“一写就跪”，看似“学会”的知识其实并没有掌握，我们缺乏相对应的必要练习。
 
-### 本期练习传送门
+## 本期练习传送门
 
-- [第16期(2019-5-23)：浅克隆](https://github.com/fezaoduke/fe-practice-hard/issues/18)
+- [第 17 期(W3C标准-HTML)：ol标签计数器](https://github.com/fezaoduke/fe-practice-hard/issues/20)
 
-### 榜单
+## 榜单
 
-- #### [试炼者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?session=1)
-- #### [名人堂](https://fezaoduke.github.io/fe-practice-hard/honor-wall/)
+- [参与者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?session=1) （前三有奖励哦）
+- [名人堂](https://fezaoduke.github.io/fe-practice-hard/honor-wall/)
 
-### 前端早读课
+## 知识体系
 
-欢迎关注 `前端早读课` 公众号，一起开启朝读晚练的励志人生吧！
+> 参考资料：[《前端工程师的知识体系》](https://www.cnblogs.com/yoshirogu/p/4174463.html)、[《WEB前端知识体系脑图》](https://www.jianshu.com/p/00baf1e65322)、[《自己总结的web前端知识体系大全》](https://www.cnblogs.com/wangfupeng1988/p/4649709.html)
+
+- ### 基本功
+  - #### W3C 标准
+    - HTML/HTML5
+      - [第 17 期(W3C标准-HTML)：ol标签计数器](https://github.com/fezaoduke/fe-practice-hard/issues/20)
+    - CSS/CSS3
+      - 盒模型
+      - 布局排版
+      - 绘制
+        - [第 4 期(2019-05-11)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
+      - 响应式布局
+      - 动画
+    - JavaScript
+      - DOM
+      - BOM
+      - 事件
+      - Math
+        - [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/7)
+        - [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
+      - Date
+        - [第 6 期(2019-05-13)：获取过去n天的日期](https://github.com/fezaoduke/fe-practice-hard/issues/8)
+    - WCAG
+    - JSON
+      - [第 10 期(2019-05-17)：JSON.parse方法polyfill](https://github.com/fezaoduke/fe-practice-hard/issues/12)
+    - XML
+  - #### ECMAScript
+    - 语法
+      - [第 13 期(2019-05-20)：无返回值的语句](https://github.com/fezaoduke/fe-practice-hard/issues/15)
+      - [第 14 期(2019-05-21)：类型判断](https://github.com/fezaoduke/fe-practice-hard/issues/16)
+      - [第 16 期(2019-5-23)：浅克隆](https://github.com/fezaoduke/fe-practice-hard/issues/18)
+    - 宿主对象
+    - 上下文环境
+      - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
+    - 原型链 继承
+    - 作用域 闭包
+      - [第 2 期(2019-05-09)：定时输出数字](https://github.com/fezaoduke/fe-practice-hard/issues/3)
+    - 正则表达式
+      - [第 9 期(2019-05-16)：CSS兼容性验证](https://github.com/fezaoduke/fe-practice-hard/issues/11)
+    - 严格模式
+      - [第 11 期(2019-05-18)：arguments与'use strict'](https://github.com/fezaoduke/fe-practice-hard/issues/13)
+  - #### HTTP 标准
+    - 请求过程
+    - 状态码
+    - 头部信息
+    - HTTPS
+- ### 内功
+  - #### 设计模式
+  - #### 算法
+    - 复杂度
+    - 搜索
+      - [第 3 期(2019-05-10)：无重复字符的最长子串](https://github.com/fezaoduke/fe-practice-hard/issues/4)
+    - 排序
+      - [第 1 期(2019-05-08)：多重排序](https://github.com/fezaoduke/fe-practice-hard/issues/2)
+    - 递归
+    - 数学
+      - [第 8 期(2019-05-15)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
+  - #### 数据结构
+    - 队列
+    - 栈堆
+    - 树
+    - 哈希
+    - 数组
+      - [第 15 期(2019-05-22)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
+  - #### 性能
+- ### 招数
+  - 主流框架
+
+## 友情赞助商：前端早读课
+
+`前端早读课` 是由知名互联网公司大牛情封（福建前端联盟发起人之一，4399UED/高级主管）开设的前端学习公众号，每天清晨发布前端技术文章，与七万+同行相伴成长。欢迎扫码关注：
 
 ![](./screenshot/official-public-accounts.jpg)
