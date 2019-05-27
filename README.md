@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 17 期(W3C标准-HTML)：ol标签计数器](https://github.com/fezaoduke/fe-practice-hard/issues/20)
+- [第 18 期(W3C标准-HTML)：a 标签](https://github.com/fezaoduke/fe-practice-hard/issues/21)
 
 ## 榜单
 
@@ -25,6 +25,7 @@
   - #### W3C 标准
     - HTML/HTML5
       - [第 17 期(W3C标准-HTML)：ol标签计数器](https://github.com/fezaoduke/fe-practice-hard/issues/20)
+      - [第 18 期(W3C标准-HTML)：a 标签](https://github.com/fezaoduke/fe-practice-hard/issues/21)
     - CSS/CSS3
       - 盒模型
       - 布局排版
