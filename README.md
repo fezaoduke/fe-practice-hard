@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 20 期(W3C标准-HTML)：meta标签](https://github.com/fezaoduke/fe-practice-hard/issues/23)
+- [第 21 期(JSON)：JSON.stringify](https://github.com/fezaoduke/fe-practice-hard/issues/24)
 
 ## 榜单
 
@@ -47,6 +47,7 @@
     - WCAG
     - JSON
       - [第 10 期(2019-05-17)：JSON.parse方法polyfill](https://github.com/fezaoduke/fe-practice-hard/issues/12)
+      - [第 21 期(JSON)：JSON.stringify](https://github.com/fezaoduke/fe-practice-hard/issues/24)
     - XML
   - #### ECMAScript
     - 语法
