@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 22 期(ECMAScript-原型链 继承)：实现 Array map](https://github.com/fezaoduke/fe-practice-hard/issues/25)
+- [第 23 期(ECMAScript-语法)：字符串对象HTML格式替代方法](https://github.com/fezaoduke/fe-practice-hard/issues/26)
 
 ## 榜单
 
@@ -54,6 +54,7 @@
       - [第 13 期(2019-05-20)：无返回值的语句](https://github.com/fezaoduke/fe-practice-hard/issues/15)
       - [第 14 期(2019-05-21)：类型判断](https://github.com/fezaoduke/fe-practice-hard/issues/16)
       - [第 16 期(2019-5-23)：浅克隆](https://github.com/fezaoduke/fe-practice-hard/issues/18)
+      - [第 23 期(ECMAScript-语法)：字符串对象HTML格式替代方法](https://github.com/fezaoduke/fe-practice-hard/issues/26)
     - 宿主对象
     - 上下文环境
       - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
