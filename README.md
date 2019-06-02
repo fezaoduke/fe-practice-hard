@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 23 期(ECMAScript-语法)：字符串对象HTML格式替代方法](https://github.com/fezaoduke/fe-practice-hard/issues/26)
+- [第 24 期(JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
 
 ## 榜单
 
@@ -37,6 +37,7 @@
       - 动画
     - JavaScript
       - DOM
+        - [第 24 期(JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
       - BOM
       - 事件
       - Math
