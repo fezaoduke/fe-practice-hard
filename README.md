@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 24 期(JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
+- [第 25 期(算法-递归)：汉诺塔（河内塔）](https://github.com/fezaoduke/fe-practice-hard/issues/28)
 
 ## 榜单
 
@@ -81,6 +81,7 @@
     - 排序
       - [第 1 期(2019-05-08)：多重排序](https://github.com/fezaoduke/fe-practice-hard/issues/2)
     - 递归
+      - [第 25 期(算法-递归)：汉诺塔（河内塔）](https://github.com/fezaoduke/fe-practice-hard/issues/28)
     - 数学
       - [第 8 期(2019-05-15)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
   - #### 数据结构
