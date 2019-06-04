@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 25 期(算法-递归)：汉诺塔（河内塔）](https://github.com/fezaoduke/fe-practice-hard/issues/28)
+- [第 26 期(ECMAScript-原型链 继承)：实现 Array reduce](https://github.com/fezaoduke/fe-practice-hard/issues/29)
 
 ## 榜单
 
@@ -61,6 +61,7 @@
       - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
     - 原型链 继承
       - [第 22 期(ECMAScript-原型链 继承)：实现 Array map](https://github.com/fezaoduke/fe-practice-hard/issues/25)
+      - [第 26 期(ECMAScript-原型链 继承)：实现 Array reduce](https://github.com/fezaoduke/fe-practice-hard/issues/29)
     - 作用域 闭包
       - [第 2 期(2019-05-09)：定时输出数字](https://github.com/fezaoduke/fe-practice-hard/issues/3)
     - 正则表达式
