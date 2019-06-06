@@ -10,6 +10,8 @@
 
 ## 本期练习传送门
 
+> 端午休息中，6 月 11 号，不见不散！
+
 - [第 27 期(ECMAScript-正则表达式)：金额数值格式化](https://github.com/fezaoduke/fe-practice-hard/issues/30)
 
 ## 榜单
