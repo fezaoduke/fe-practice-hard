@@ -10,9 +10,7 @@
 
 ## 本期练习传送门
 
-> 端午休息中，6 月 11 号，不见不散！
-
-- [第 27 期(ECMAScript-正则表达式)：金额数值格式化](https://github.com/fezaoduke/fe-practice-hard/issues/30)
+- [第 28 期(W3C 标准-SVG)：用SVG画西瓜](https://github.com/fezaoduke/fe-practice-hard/issues/31)
 
 ## 榜单
 
@@ -52,6 +50,8 @@
       - [第 10 期(2019-05-17)：JSON.parse方法polyfill](https://github.com/fezaoduke/fe-practice-hard/issues/12)
       - [第 21 期(JSON)：JSON.stringify](https://github.com/fezaoduke/fe-practice-hard/issues/24)
     - XML
+    - SVG
+      - [第 28 期(W3C 标准-SVG)：用SVG画西瓜](https://github.com/fezaoduke/fe-practice-hard/issues/31)
   - #### ECMAScript
     - 语法
       - [第 13 期(2019-05-20)：无返回值的语句](https://github.com/fezaoduke/fe-practice-hard/issues/15)
