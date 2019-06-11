@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 28 期(W3C 标准-SVG)：用SVG画西瓜](https://github.com/fezaoduke/fe-practice-hard/issues/31)
+- [第 29 期(算法-数学)：抽奖概率算法](https://github.com/fezaoduke/fe-practice-hard/issues/32)
 
 ## 榜单
 
@@ -88,6 +88,7 @@
       - [第 25 期(算法-递归)：汉诺塔（河内塔）](https://github.com/fezaoduke/fe-practice-hard/issues/28)
     - 数学
       - [第 8 期(2019-05-15)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
+      - [第 29 期(算法-数学)：抽奖概率算法](https://github.com/fezaoduke/fe-practice-hard/issues/32)
   - #### 数据结构
     - 队列
     - 栈堆
