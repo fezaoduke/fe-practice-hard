@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 29 期(算法-数学)：抽奖概率算法](https://github.com/fezaoduke/fe-practice-hard/issues/32)
+- [第 30 期(算法-搜索)：二分搜索算法](https://github.com/fezaoduke/fe-practice-hard/issues/33)
 
 ## 榜单
 
@@ -79,9 +79,9 @@
 - ### 内功
   - #### 设计模式
   - #### 算法
-    - 复杂度
     - 搜索
       - [第 3 期(2019-05-10)：无重复字符的最长子串](https://github.com/fezaoduke/fe-practice-hard/issues/4)
+      - [第 30 期(算法-搜索)：二分搜索算法](https://github.com/fezaoduke/fe-practice-hard/issues/33)
     - 排序
       - [第 1 期(2019-05-08)：多重排序](https://github.com/fezaoduke/fe-practice-hard/issues/2)
     - 递归
