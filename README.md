@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 30 期(算法-搜索)：二分搜索算法](https://github.com/fezaoduke/fe-practice-hard/issues/33)
+- [第 31 期(CMAScript-作用域 闭包)：模拟ES6 Generator](https://github.com/fezaoduke/fe-practice-hard/issues/34)
 
 ## 榜单
 
@@ -66,6 +66,7 @@
       - [第 26 期(ECMAScript-原型链 继承)：实现 Array reduce](https://github.com/fezaoduke/fe-practice-hard/issues/29)
     - 作用域 闭包
       - [第 2 期(2019-05-09)：定时输出数字](https://github.com/fezaoduke/fe-practice-hard/issues/3)
+      - [第 31 期(CMAScript-作用域 闭包)：模拟ES6 Generator](https://github.com/fezaoduke/fe-practice-hard/issues/34)
     - 正则表达式
       - [第 9 期(2019-05-16)：CSS兼容性验证](https://github.com/fezaoduke/fe-practice-hard/issues/11)
       - [第 27 期(ECMAScript-正则表达式)：金额数值格式化](https://github.com/fezaoduke/fe-practice-hard/issues/30)
