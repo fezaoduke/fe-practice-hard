@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 31 期(CMAScript-作用域 闭包)：模拟ES6 Generator](https://github.com/fezaoduke/fe-practice-hard/issues/34)
+- [第 33 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
 
 ## 榜单
 
@@ -30,6 +30,7 @@
       - [第 20 期(W3C标准-HTML)：meta标签](https://github.com/fezaoduke/fe-practice-hard/issues/23)
     - CSS/CSS3
       - 盒模型
+        - [第 33 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
       - 布局排版
       - 绘制
         - [第 4 期(2019-05-11)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
@@ -66,7 +67,7 @@
       - [第 26 期(ECMAScript-原型链 继承)：实现 Array reduce](https://github.com/fezaoduke/fe-practice-hard/issues/29)
     - 作用域 闭包
       - [第 2 期(2019-05-09)：定时输出数字](https://github.com/fezaoduke/fe-practice-hard/issues/3)
-      - [第 31 期(CMAScript-作用域 闭包)：模拟ES6 Generator](https://github.com/fezaoduke/fe-practice-hard/issues/34)
+      - [第 31 期(ECMAScript-作用域 闭包)：模拟ES6 Generator](https://github.com/fezaoduke/fe-practice-hard/issues/34)
     - 正则表达式
       - [第 9 期(2019-05-16)：CSS兼容性验证](https://github.com/fezaoduke/fe-practice-hard/issues/11)
       - [第 27 期(ECMAScript-正则表达式)：金额数值格式化](https://github.com/fezaoduke/fe-practice-hard/issues/30)
