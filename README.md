@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 33 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
+- [第 32 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
 
 ## 榜单
 
@@ -30,7 +30,7 @@
       - [第 20 期(W3C标准-HTML)：meta标签](https://github.com/fezaoduke/fe-practice-hard/issues/23)
     - CSS/CSS3
       - 盒模型
-        - [第 33 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
+        - [第 32 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
       - 布局排版
       - 绘制
         - [第 4 期(2019-05-11)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
