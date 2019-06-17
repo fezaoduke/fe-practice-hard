@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 34 期(W3C 标准-ECMAScript-语法)：js 对象深拷贝](https://github.com/fezaoduke/fe-practice-hard/issues/37)
+- [第 35 期(W3C 标准-CSS-布局排版)：图片等比缩放匹配父容器尺寸](https://github.com/fezaoduke/fe-practice-hard/issues/38)
 
 ## 榜单
 
@@ -33,6 +33,7 @@
       - 盒模型
         - [第 32 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
       - 布局排版
+        - [第 35 期(W3C 标准-CSS-布局排版)：图片等比缩放匹配父容器尺寸](https://github.com/fezaoduke/fe-practice-hard/issues/38)
       - 绘制
         - [第 4 期(2019-05-11)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
       - 响应式布局
