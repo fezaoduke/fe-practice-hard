@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 35 期(W3C 标准-CSS-布局排版)：图片等比缩放匹配父容器尺寸](https://github.com/fezaoduke/fe-practice-hard/issues/38)
+- [第 36 期(W3C 标准-ECMAScript-语法)：实现一个Promise方法](https://github.com/fezaoduke/fe-practice-hard/issues/39)
 
 ## 榜单
 
@@ -62,6 +62,7 @@
       - [第 16 期(2019-5-23)：浅克隆](https://github.com/fezaoduke/fe-practice-hard/issues/18)
       - [第 23 期(ECMAScript-语法)：字符串对象HTML格式替代方法](https://github.com/fezaoduke/fe-practice-hard/issues/26)
       - [第 34 期(W3C 标准-ECMAScript-语法)：js 对象深拷贝](https://github.com/fezaoduke/fe-practice-hard/issues/37)
+      - [第 36 期(W3C 标准-ECMAScript-语法)：实现一个Promise方法](https://github.com/fezaoduke/fe-practice-hard/issues/39)
     - 宿主对象
     - 上下文环境
       - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
