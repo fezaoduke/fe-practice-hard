@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 36 期(W3C 标准-ECMAScript-语法)：实现一个Promise方法](https://github.com/fezaoduke/fe-practice-hard/issues/39)
+- [第 37 期(W3C 标准-ECMAScript-原型链 继承)：原型链的尽头](https://github.com/fezaoduke/fe-practice-hard/issues/40)
 
 ## 榜单
 
@@ -69,6 +69,7 @@
     - 原型链 继承
       - [第 22 期(ECMAScript-原型链 继承)：实现 Array map](https://github.com/fezaoduke/fe-practice-hard/issues/25)
       - [第 26 期(ECMAScript-原型链 继承)：实现 Array reduce](https://github.com/fezaoduke/fe-practice-hard/issues/29)
+      - [第 37 期(W3C 标准-ECMAScript-原型链 继承)：原型链的尽头](https://github.com/fezaoduke/fe-practice-hard/issues/40)
     - 作用域 闭包
       - [第 2 期(2019-05-09)：定时输出数字](https://github.com/fezaoduke/fe-practice-hard/issues/3)
       - [第 31 期(ECMAScript-作用域 闭包)：模拟ES6 Generator](https://github.com/fezaoduke/fe-practice-hard/issues/34)
