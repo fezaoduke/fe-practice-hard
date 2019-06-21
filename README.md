@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 37 期(W3C 标准-ECMAScript-原型链 继承)：原型链的尽头](https://github.com/fezaoduke/fe-practice-hard/issues/40)
+- [第 38 期(W3C 标准-JavaScript-事件)：事件的绑定与移除](https://github.com/fezaoduke/fe-practice-hard/issues/41)
 
 ## 榜单
 
@@ -43,6 +43,7 @@
         - [第 24 期(JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
       - BOM
       - 事件
+        - [第 38 期(W3C 标准-JavaScript-事件)：事件的绑定与移除](https://github.com/fezaoduke/fe-practice-hard/issues/41)
       - Math
         - [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/7)
         - [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
