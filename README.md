@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 38 期(W3C 标准-JavaScript-事件)：事件的绑定与移除](https://github.com/fezaoduke/fe-practice-hard/issues/41)
+- [第 39 期(W3C 标准-CSS-响应式布局)：基于Grid的响应式布局](https://github.com/fezaoduke/fe-practice-hard/issues/42)
 
 ## 榜单
 
@@ -37,6 +37,7 @@
       - 绘制
         - [第 4 期(2019-05-11)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
       - 响应式布局
+        - [第 39 期(W3C 标准-CSS-响应式布局)：基于Grid的响应式布局](https://github.com/fezaoduke/fe-practice-hard/issues/42)
       - 动画
     - JavaScript
       - DOM
