@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 39 期(W3C 标准-CSS-响应式布局)：基于Grid的响应式布局](https://github.com/fezaoduke/fe-practice-hard/issues/42)
+- [第 40 期(HTTP规范-请求过程)：HTTP的方法](https://github.com/fezaoduke/fe-practice-hard/issues/43)
 
 ## 榜单
 
@@ -82,6 +82,7 @@
       - [第 11 期(2019-05-18)：arguments与'use strict'](https://github.com/fezaoduke/fe-practice-hard/issues/13)
   - #### HTTP 标准
     - 请求过程
+      - [第 40 期(HTTP规范-请求过程)：HTTP的方法](https://github.com/fezaoduke/fe-practice-hard/issues/43)
     - 状态码
     - 头部信息
     - HTTPS
