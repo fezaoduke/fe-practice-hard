@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 40 期(HTTP规范-请求过程)：HTTP的方法](https://github.com/fezaoduke/fe-practice-hard/issues/43)
+- [第 41 期W3C标准-JavaScript-DOM)：点击空白处检测](https://github.com/fezaoduke/fe-practice-hard/issues/44)
 
 ## 榜单
 
@@ -42,6 +42,7 @@
     - JavaScript
       - DOM
         - [第 24 期(JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
+        - [第 41 期W3C标准-JavaScript-DOM)：点击空白处检测](https://github.com/fezaoduke/fe-practice-hard/issues/44)
       - BOM
       - 事件
         - [第 38 期(W3C 标准-JavaScript-事件)：事件的绑定与移除](https://github.com/fezaoduke/fe-practice-hard/issues/41)
