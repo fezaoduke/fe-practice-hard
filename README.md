@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 41 期W3C标准-JavaScript-DOM)：点击空白处检测](https://github.com/fezaoduke/fe-practice-hard/issues/44)
+- [第 42 期(算法-搜索)：获取多层嵌套对象的目标属性值](https://github.com/fezaoduke/fe-practice-hard/issues/45)
 
 ## 榜单
 
@@ -93,6 +93,7 @@
     - 搜索
       - [第 3 期(2019-05-10)：无重复字符的最长子串](https://github.com/fezaoduke/fe-practice-hard/issues/4)
       - [第 30 期(算法-搜索)：二分搜索算法](https://github.com/fezaoduke/fe-practice-hard/issues/33)
+      - [第 42 期(算法-搜索)：获取多层嵌套对象的目标属性值](https://github.com/fezaoduke/fe-practice-hard/issues/45)
     - 排序
       - [第 1 期(2019-05-08)：多重排序](https://github.com/fezaoduke/fe-practice-hard/issues/2)
     - 递归
