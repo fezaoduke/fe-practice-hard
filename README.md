@@ -12,10 +12,12 @@
 
 - [第 43 期(W3C标准-HTML)：快捷键](https://github.com/fezaoduke/fe-practice-hard/issues/46)
 
+<!--
 ## 榜单
 
 - [参与者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?session=1) （前三有奖励哦）
 - [名人堂](https://fezaoduke.github.io/fe-practice-hard/honor-wall/)
+-->
 
 ## 知识体系
 
