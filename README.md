@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 42 期(算法-搜索)：获取多层嵌套对象的目标属性值](https://github.com/fezaoduke/fe-practice-hard/issues/45)
+- [第 43 期(W3C标准-HTML)：快捷键](https://github.com/fezaoduke/fe-practice-hard/issues/46)
 
 ## 榜单
 
@@ -29,6 +29,7 @@
       - [第 19 期(W3C标准-HTML)：换行](https://github.com/fezaoduke/fe-practice-hard/issues/22)
       - [第 20 期(W3C标准-HTML)：meta标签](https://github.com/fezaoduke/fe-practice-hard/issues/23)
       - [第 33 期(W3C 标准-HTML)：汉语拼音](https://github.com/fezaoduke/fe-practice-hard/issues/36)
+      - [第 43 期(W3C标准-HTML)：快捷键](https://github.com/fezaoduke/fe-practice-hard/issues/46)
     - CSS/CSS3
       - 盒模型
         - [第 32 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
