@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 43 期(W3C标准-HTML)：快捷键](https://github.com/fezaoduke/fe-practice-hard/issues/46)
+- [第 44 期(W3C标准-JavaScript-DOM)：元素滚动到视区](https://github.com/fezaoduke/fe-practice-hard/issues/47)
 
 <!--
 ## 榜单
