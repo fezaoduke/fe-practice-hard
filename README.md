@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 44 期(W3C标准-JavaScript-DOM)：元素滚动到视区](https://github.com/fezaoduke/fe-practice-hard/issues/47)
+- [第 46 期(W3C标准-CSS-动画)：按钮loading动画效果](https://github.com/fezaoduke/fe-practice-hard/issues/48)
 
 <!--
 ## 榜单
@@ -42,6 +42,7 @@
       - 响应式布局
         - [第 39 期(W3C 标准-CSS-响应式布局)：基于Grid的响应式布局](https://github.com/fezaoduke/fe-practice-hard/issues/42)
       - 动画
+        - [第 46 期(W3C标准-CSS-动画)：按钮loading动画效果](https://github.com/fezaoduke/fe-practice-hard/issues/48)
     - JavaScript
       - DOM
         - [第 24 期(JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
