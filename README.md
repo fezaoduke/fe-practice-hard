@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 46 期(W3C标准-CSS-动画)：按钮loading动画效果](https://github.com/fezaoduke/fe-practice-hard/issues/49)
+- [第 47 期(技巧)：图片加载器](https://github.com/fezaoduke/fe-practice-hard/issues/50)
 
 <!--
 ## 榜单
@@ -115,6 +115,8 @@
   - #### 性能
 - ### 招数
   - 主流框架
+  - 技巧
+    - [第 47 期(技巧)：图片加载器](https://github.com/fezaoduke/fe-practice-hard/issues/50)
 
 ## 友情赞助商：前端早读课
 
