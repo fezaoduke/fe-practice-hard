@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 47 期(技巧)：图片加载器](https://github.com/fezaoduke/fe-practice-hard/issues/50)
+- [第 48 期(ECMAScript-语法)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
 
 <!--
 ## 榜单
@@ -70,6 +70,7 @@
       - [第 23 期(ECMAScript-语法)：字符串对象HTML格式替代方法](https://github.com/fezaoduke/fe-practice-hard/issues/26)
       - [第 34 期(W3C 标准-ECMAScript-语法)：js 对象深拷贝](https://github.com/fezaoduke/fe-practice-hard/issues/37)
       - [第 36 期(W3C 标准-ECMAScript-语法)：实现一个Promise方法](https://github.com/fezaoduke/fe-practice-hard/issues/39)
+      - [第 48 期(ECMAScript-语法)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
     - 宿主对象
     - 上下文环境
       - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
