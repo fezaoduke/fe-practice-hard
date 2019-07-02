@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 48 期(ECMAScript-语法)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
+- [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
 
 <!--
 ## 榜单
@@ -113,6 +113,7 @@
     - 哈希
     - 数组
       - [第 15 期(2019-05-22)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
+      - [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
   - #### 性能
 - ### 招数
   - 主流框架
