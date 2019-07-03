@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
+- [第 49 期(主流框架-React)：生命周期函数](https://github.com/fezaoduke/fe-practice-hard/issues/52)
 
 <!--
 ## 榜单
@@ -116,6 +116,8 @@
   - #### 性能
 - ### 招数
   - 主流框架
+    - React
+      - [第 49 期(主流框架-React)：生命周期函数](https://github.com/fezaoduke/fe-practice-hard/issues/52)
   - 技巧
     - [第 47 期(技巧)：图片加载器](https://github.com/fezaoduke/fe-practice-hard/issues/50)
 
