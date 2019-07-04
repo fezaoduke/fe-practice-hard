@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 49 期(主流框架-React)：生命周期函数](https://github.com/fezaoduke/fe-practice-hard/issues/52)
+- [第 50 期(技巧)：npm和yarn的命令行](https://github.com/fezaoduke/fe-practice-hard/issues/53)
 
 <!--
 ## 榜单
@@ -120,6 +120,7 @@
       - [第 49 期(主流框架-React)：生命周期函数](https://github.com/fezaoduke/fe-practice-hard/issues/52)
   - 技巧
     - [第 47 期(技巧)：图片加载器](https://github.com/fezaoduke/fe-practice-hard/issues/50)
+    - [第 50 期(技巧)：npm和yarn的命令行](https://github.com/fezaoduke/fe-practice-hard/issues/53)
 
 ## 友情赞助商：前端早读课
 
