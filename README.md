@@ -10,7 +10,7 @@
 
 ## 本期练习传送门
 
-- [第 50 期(技巧)：npm和yarn的命令行](https://github.com/fezaoduke/fe-practice-hard/issues/53)
+- [第 51 期(W3C 标准-JavaScript-事件)：复合事件](https://github.com/fezaoduke/fe-practice-hard/issues/54)
 
 <!--
 ## 榜单
@@ -50,6 +50,7 @@
       - BOM
       - 事件
         - [第 38 期(W3C 标准-JavaScript-事件)：事件的绑定与移除](https://github.com/fezaoduke/fe-practice-hard/issues/41)
+        - [第 51 期(W3C 标准-JavaScript-事件)：复合事件](https://github.com/fezaoduke/fe-practice-hard/issues/54)
       - Math
         - [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/7)
         - [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
