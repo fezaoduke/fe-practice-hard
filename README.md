@@ -10,12 +10,14 @@
 
 ## 本期练习传送门
 
-- [第 42 期(算法-搜索)：获取多层嵌套对象的目标属性值](https://github.com/fezaoduke/fe-practice-hard/issues/45)
+- [第 51 期(W3C 标准-JavaScript-事件)：复合事件](https://github.com/fezaoduke/fe-practice-hard/issues/54)
 
+<!--
 ## 榜单
 
 - [参与者排行榜（第1-100期）](https://fezaoduke.github.io/fe-practice-hard/ranking-list/index.html?session=1) （前三有奖励哦）
 - [名人堂](https://fezaoduke.github.io/fe-practice-hard/honor-wall/)
+-->
 
 ## 知识体系
 
@@ -29,6 +31,7 @@
       - [第 19 期(W3C标准-HTML)：换行](https://github.com/fezaoduke/fe-practice-hard/issues/22)
       - [第 20 期(W3C标准-HTML)：meta标签](https://github.com/fezaoduke/fe-practice-hard/issues/23)
       - [第 33 期(W3C 标准-HTML)：汉语拼音](https://github.com/fezaoduke/fe-practice-hard/issues/36)
+      - [第 43 期(W3C标准-HTML)：快捷键](https://github.com/fezaoduke/fe-practice-hard/issues/46)
     - CSS/CSS3
       - 盒模型
         - [第 32 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
@@ -39,6 +42,7 @@
       - 响应式布局
         - [第 39 期(W3C 标准-CSS-响应式布局)：基于Grid的响应式布局](https://github.com/fezaoduke/fe-practice-hard/issues/42)
       - 动画
+        - [第 46 期(W3C标准-CSS-动画)：按钮loading动画效果](https://github.com/fezaoduke/fe-practice-hard/issues/49)
     - JavaScript
       - DOM
         - [第 24 期(JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
@@ -46,6 +50,7 @@
       - BOM
       - 事件
         - [第 38 期(W3C 标准-JavaScript-事件)：事件的绑定与移除](https://github.com/fezaoduke/fe-practice-hard/issues/41)
+        - [第 51 期(W3C 标准-JavaScript-事件)：复合事件](https://github.com/fezaoduke/fe-practice-hard/issues/54)
       - Math
         - [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/7)
         - [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
@@ -108,9 +113,15 @@
     - 哈希
     - 数组
       - [第 15 期(2019-05-22)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
+      - [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
   - #### 性能
 - ### 招数
   - 主流框架
+    - React
+      - [第 49 期(主流框架-React)：生命周期函数](https://github.com/fezaoduke/fe-practice-hard/issues/52)
+  - 技巧
+    - [第 47 期(技巧)：图片加载器](https://github.com/fezaoduke/fe-practice-hard/issues/50)
+    - [第 50 期(技巧)：npm和yarn的命令行](https://github.com/fezaoduke/fe-practice-hard/issues/53)
 
 ## 友情赞助商：前端早读课
 
