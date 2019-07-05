@@ -23,7 +23,7 @@
 
 > 参考资料：[《前端工程师的知识体系》](https://www.cnblogs.com/yoshirogu/p/4174463.html)、[《WEB前端知识体系脑图》](https://www.jianshu.com/p/00baf1e65322)、[《自己总结的web前端知识体系大全》](https://www.cnblogs.com/wangfupeng1988/p/4649709.html)
 
-- ### 基本功
+- ### ![](./assets/images/dumbbell.png) 基本功
   - #### W3C 标准
     - HTML/HTML5
       - [第 17 期(W3C标准-HTML)：ol标签计数器](https://github.com/fezaoduke/fe-practice-hard/issues/20)
@@ -92,7 +92,7 @@
     - 状态码
     - 头部信息
     - HTTPS
-- ### 内功
+- ### ![](./assets/images/strength.png) 内功
   - #### 设计模式
   - #### 算法
     - 搜索
@@ -115,7 +115,7 @@
       - [第 15 期(2019-05-22)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
       - [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
   - #### 性能
-- ### 招数
+- ### ![](./assets/images/boxing.png) 招术
   - 主流框架
     - React
       - [第 49 期(主流框架-React)：生命周期函数](https://github.com/fezaoduke/fe-practice-hard/issues/52)
