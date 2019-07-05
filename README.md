@@ -2,7 +2,7 @@
   <img width="200" src="./assets/images/logo.svg" alt="logo">
 </p>
 
-<h1 align="center">前端刻意练习<small>（原:前端晚练课）</small></h1>
+<h1 align="center">前端刻意练习<small style="font-size:50%">（原:前端晚练课）</small></h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/project-%E5%89%8D%E7%AB%AF%E5%88%BB%E6%84%8F%E7%BB%83%E4%B9%A0-%7B.svg">&nbsp;
@@ -27,7 +27,7 @@
 
 ## 知识体系
 
-### 基本功 <img src="./assets/images/dumbbell.png" style="vertical-align:-.5em">
+### 基本功 ![](./assets/images/dumbbell.png)
 
 - #### W3C 标准
   - HTML/HTML5
@@ -98,7 +98,7 @@
   - 头部信息
   - HTTPS
 
-### 内功 <img src="./assets/images/strength.png" style="vertical-align:-.5em"> 
+### 内功 ![](./assets/images/strength.png)
 
 - #### 设计模式
 - #### 算法
@@ -123,7 +123,7 @@
     - [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
 - #### 性能
 
-### 招术 <img src="./assets/images/boxing.png" style="vertical-align:-.5em">
+### 招术 ![](./assets/images/boxing.png)
 
   - 主流框架
     - React
