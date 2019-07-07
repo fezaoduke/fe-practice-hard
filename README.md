@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 52 期(W3C 标准-ECMAScript-上下文环境)：模拟call方法](https://github.com/fezaoduke/fe-practice-hard/issues/55)
+- [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)
 
 <!--
 ## 榜单
@@ -38,6 +38,8 @@
     - [第 33 期(W3C 标准-HTML)：汉语拼音](https://github.com/fezaoduke/fe-practice-hard/issues/36)
     - [第 43 期(W3C标准-HTML)：快捷键](https://github.com/fezaoduke/fe-practice-hard/issues/46)
   - CSS/CSS3
+    - 语法
+      - [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)
     - 盒模型
       - [第 32 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
     - 布局排版
