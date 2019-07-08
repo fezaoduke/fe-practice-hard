@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)
+- [第 54 期(W3C标准-CSS-布局排版)：word-break与word-wrap](https://github.com/fezaoduke/fe-practice-hard/issues/57)
 
 <!--
 ## 榜单
@@ -44,6 +44,7 @@
       - [第 32 期(W3C 标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
     - 布局排版
       - [第 35 期(W3C 标准-CSS-布局排版)：图片等比缩放匹配父容器尺寸](https://github.com/fezaoduke/fe-practice-hard/issues/38)
+      - [第 54 期(W3C标准-CSS-布局排版)：word-break与word-wrap](https://github.com/fezaoduke/fe-practice-hard/issues/57)
     - 绘制
       - [第 4 期(2019-05-11)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
     - 响应式布局
