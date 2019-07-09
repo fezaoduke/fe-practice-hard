@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 54 期(W3C标准-CSS-布局排版)：word-break与word-wrap](https://github.com/fezaoduke/fe-practice-hard/issues/57)
+- [第 55 期(W3C 标准-JavaScript-事件)：页面卸载事件 beforeunload](https://github.com/fezaoduke/fe-practice-hard/issues/58)
 
 <!--
 ## 榜单
@@ -59,6 +59,7 @@
     - 事件
       - [第 38 期(W3C 标准-JavaScript-事件)：事件的绑定与移除](https://github.com/fezaoduke/fe-practice-hard/issues/41)
       - [第 51 期(W3C 标准-JavaScript-事件)：复合事件](https://github.com/fezaoduke/fe-practice-hard/issues/54)
+      - [第 55 期(W3C 标准-JavaScript-事件)：页面卸载事件 beforeunload](https://github.com/fezaoduke/fe-practice-hard/issues/58)
     - Math
       - [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/7)
       - [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
