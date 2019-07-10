@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 55 期(W3C 标准-JavaScript-事件)：页面卸载事件 beforeunload](https://github.com/fezaoduke/fe-practice-hard/issues/58)
+- [第 56 期(W3C 标准-ECMAScript-上下文环境)：模拟apply方法](https://github.com/fezaoduke/fe-practice-hard/issues/59)
 
 <!--
 ## 榜单
@@ -84,6 +84,7 @@
   - 上下文环境
     - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
     - [第 52 期(W3C 标准-ECMAScript-上下文环境)：模拟call方法](https://github.com/fezaoduke/fe-practice-hard/issues/55)
+    - [第 56 期(W3C 标准-ECMAScript-上下文环境)：模拟apply方法](https://github.com/fezaoduke/fe-practice-hard/issues/59)
   - 原型链 继承
     - [第 22 期(ECMAScript-原型链 继承)：实现 Array map](https://github.com/fezaoduke/fe-practice-hard/issues/25)
     - [第 26 期(ECMAScript-原型链 继承)：实现 Array reduce](https://github.com/fezaoduke/fe-practice-hard/issues/29)
