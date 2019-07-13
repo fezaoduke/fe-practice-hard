@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 57 期(W3C 标准-ECMAScript-语法)：setTimeout的其他参数](https://github.com/fezaoduke/fe-practice-hard/issues/60)
+- [第 58 期(W3C 标准-JavaScript-存储)：保存文本域的内容刷新不丢失](https://github.com/fezaoduke/fe-practice-hard/issues/61)
 
 - [前端刻意练习-周末小测-1](https://exam.kaoshixing.com/exam/exam_skip_login/289149/136969)
 
@@ -67,6 +67,8 @@
       - [第 38 期(W3C 标准-JavaScript-事件)：事件的绑定与移除](https://github.com/fezaoduke/fe-practice-hard/issues/41)
       - [第 51 期(W3C 标准-JavaScript-事件)：复合事件](https://github.com/fezaoduke/fe-practice-hard/issues/54)
       - [第 55 期(W3C 标准-JavaScript-事件)：页面卸载事件 beforeunload](https://github.com/fezaoduke/fe-practice-hard/issues/58)
+    - 存储
+      - [第 58 期(W3C 标准-JavaScript-存储)：保存文本域的内容刷新不丢失](https://github.com/fezaoduke/fe-practice-hard/issues/61)
     - Math
       - [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/7)
       - [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
