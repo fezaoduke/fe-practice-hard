@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 58 期(W3C 标准-JavaScript-存储)：保存文本域的内容刷新不丢失](https://github.com/fezaoduke/fe-practice-hard/issues/61)
+- [第 59 期(W3C 标准-JavaScript-BOM)：location 位置操作](https://github.com/fezaoduke/fe-practice-hard/issues/62)
 
 - [前端刻意练习-周末小测-1](https://exam.kaoshixing.com/exam/exam_skip_login/289149/136969)
 
@@ -63,6 +63,7 @@
       - [第 24 期(JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
       - [第 41 期W3C标准-JavaScript-DOM)：点击空白处检测](https://github.com/fezaoduke/fe-practice-hard/issues/44)
     - BOM
+      - [第 59 期(W3C 标准-JavaScript-BOM)：location 位置操作](https://github.com/fezaoduke/fe-practice-hard/issues/62)
     - 事件
       - [第 38 期(W3C 标准-JavaScript-事件)：事件的绑定与移除](https://github.com/fezaoduke/fe-practice-hard/issues/41)
       - [第 51 期(W3C 标准-JavaScript-事件)：复合事件](https://github.com/fezaoduke/fe-practice-hard/issues/54)
