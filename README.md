@@ -18,12 +18,14 @@
 
 - [第 60 期(数据结构-栈)：栈和栈的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/63)
 
+<!--
 - [前端刻意练习-周末小测-1](https://exam.kaoshixing.com/exam/exam_skip_login/289149/136969)
 
   > 开考日期：2019-07-12 至 2019-07-14 <br>
   > 考试时长：10 分钟 <br>
   > 人数限制：25 人（用的第三方考试系统，免费版限制 25 人） <br>
   > 及格分数：8 分（满分 10 分），考完自动核算成绩 <br>
+-->
 
 <!--
 ## 榜单
