@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 60 期(数据结构-栈)：栈和栈的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/63)
+- [第 61 期(数据结构-栈)：栈的应用](https://github.com/fezaoduke/fe-practice-hard/issues/64)
 
 <!--
 - [前端刻意练习-周末小测-1](https://exam.kaoshixing.com/exam/exam_skip_login/289149/136969)
@@ -136,6 +136,7 @@
   - 队列
   - 栈
     - [第 60 期(数据结构-栈)：栈和栈的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/63)
+    - [第 61 期(数据结构-栈)：栈的应用](https://github.com/fezaoduke/fe-practice-hard/issues/64)
   - 树
   - 哈希
   - 数组
