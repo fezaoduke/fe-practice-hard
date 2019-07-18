@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 61 期(数据结构-栈)：栈的应用](https://github.com/fezaoduke/fe-practice-hard/issues/64)
+- [第 62 期(数据结构-队列)：队列和队列的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/65)
 
 <!--
 - [前端刻意练习-周末小测-1](https://exam.kaoshixing.com/exam/exam_skip_login/289149/136969)
@@ -134,6 +134,7 @@
     - [第 29 期(算法-数学)：抽奖概率算法](https://github.com/fezaoduke/fe-practice-hard/issues/32)
 - #### 数据结构
   - 队列
+    - [第 62 期(数据结构-队列)：队列和队列的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/65)
   - 栈
     - [第 60 期(数据结构-栈)：栈和栈的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/63)
     - [第 61 期(数据结构-栈)：栈的应用](https://github.com/fezaoduke/fe-practice-hard/issues/64)
