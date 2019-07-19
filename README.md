@@ -18,7 +18,7 @@
 
 - [第 63 期(数据结构-队列)：队列的应用](https://github.com/fezaoduke/fe-practice-hard/issues/66)
 
-- [前端刻意练习-周末小测-2](https://www.kaoshixing.com/exam/exam_wechat_skip_login/292991/136969)
+- [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
 
   > 开考日期：2019-07-19 至 2019-07-21 <br>
   > 考试时长：8 分钟 <br>
