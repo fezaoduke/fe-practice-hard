@@ -16,16 +16,14 @@
 
 ## 本期练习传送门
 
-- [第 62 期(数据结构-队列)：队列和队列的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/65)
+- [第 63 期(数据结构-队列)：队列的应用](https://github.com/fezaoduke/fe-practice-hard/issues/66)
 
-<!--
-- [前端刻意练习-周末小测-1](https://exam.kaoshixing.com/exam/exam_skip_login/289149/136969)
+- [前端刻意练习-周末小测-2](https://www.kaoshixing.com/exam/exam_wechat_skip_login/292991/136969)
 
-  > 开考日期：2019-07-12 至 2019-07-14 <br>
-  > 考试时长：10 分钟 <br>
+  > 开考日期：2019-07-19 至 2019-07-21 <br>
+  > 考试时长：8 分钟 <br>
   > 人数限制：25 人（用的第三方考试系统，免费版限制 25 人） <br>
-  > 及格分数：8 分（满分 10 分），考完自动核算成绩 <br>
--->
+  > 及格分数：4 分（满分 6 分），考完自动核算成绩 <br>
 
 <!--
 ## 榜单
@@ -135,6 +133,7 @@
 - #### 数据结构
   - 队列
     - [第 62 期(数据结构-队列)：队列和队列的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/65)
+    - [第 63 期(数据结构-队列)：队列的应用](https://github.com/fezaoduke/fe-practice-hard/issues/66)
   - 栈
     - [第 60 期(数据结构-栈)：栈和栈的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/63)
     - [第 61 期(数据结构-栈)：栈的应用](https://github.com/fezaoduke/fe-practice-hard/issues/64)
