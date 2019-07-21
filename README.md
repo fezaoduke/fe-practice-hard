@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 64 期(W3C 标准-JavaScript)：JavaScript中常用的转义字符](https://github.com/fezaoduke/fe-practice-hard/issues/67)
+- [第 65 期(W3C 标准-JavaScript-AJAX)：手写实现AJAX](https://github.com/fezaoduke/fe-practice-hard/issues/68)
 
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
 
@@ -71,6 +71,9 @@
       - [第 55 期(W3C 标准-JavaScript-事件)：页面卸载事件 beforeunload](https://github.com/fezaoduke/fe-practice-hard/issues/58)
     - 存储
       - [第 58 期(W3C 标准-JavaScript-存储)：保存文本域的内容刷新不丢失](https://github.com/fezaoduke/fe-practice-hard/issues/61)
+    - 异步
+      - [第 36 期(W3C 标准-JavaScript-异步)：实现一个Promise方法](https://github.com/fezaoduke/fe-practice-hard/issues/39)
+      - [第 65 期(W3C 标准-JavaScript-异步)：手写实现AJAX](https://github.com/fezaoduke/fe-practice-hard/issues/68)
     - Math
       - [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/7)
       - [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
@@ -89,8 +92,7 @@
     - [第 14 期(2019-05-21)：类型判断](https://github.com/fezaoduke/fe-practice-hard/issues/16)
     - [第 16 期(2019-5-23)：浅克隆](https://github.com/fezaoduke/fe-practice-hard/issues/18)
     - [第 23 期(ECMAScript-语法)：字符串对象HTML格式替代方法](https://github.com/fezaoduke/fe-practice-hard/issues/26)
-    - [第 34 期(W3C 标准-ECMAScript-语法)：js 对象深拷贝](https://github.com/fezaoduke/fe-practice-hard/issues/37)
-    - [第 36 期(W3C 标准-ECMAScript-语法)：实现一个Promise方法](https://github.com/fezaoduke/fe-practice-hard/issues/39)
+    - [第 34 期(W3C 标准-ECMAScript-语法)：js 对象深拷贝](https://github.com/fezaoduke/fe-practice-hard/issues/37)    
     - [第 57 期(W3C 标准-ECMAScript-语法)：setTimeout的其他参数](https://github.com/fezaoduke/fe-practice-hard/issues/60)
   - 宿主对象
   - 上下文环境
