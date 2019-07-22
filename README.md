@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 65 期(W3C 标准-JavaScript-AJAX)：手写实现AJAX](https://github.com/fezaoduke/fe-practice-hard/issues/68)
+- [第 66 期(W3C 标准-HTML)：特殊实体字符HTML、CSS、JS对照表](https://github.com/fezaoduke/fe-practice-hard/issues/69)
 
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
 
@@ -44,6 +44,7 @@
     - [第 20 期(W3C标准-HTML)：meta标签](https://github.com/fezaoduke/fe-practice-hard/issues/23)
     - [第 33 期(W3C 标准-HTML)：汉语拼音](https://github.com/fezaoduke/fe-practice-hard/issues/36)
     - [第 43 期(W3C标准-HTML)：快捷键](https://github.com/fezaoduke/fe-practice-hard/issues/46)
+    - [第 66 期(W3C 标准-HTML)：特殊实体字符HTML、CSS、JS对照表](https://github.com/fezaoduke/fe-practice-hard/issues/69)
   - CSS/CSS3
     - 语法
       - [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)
