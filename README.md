@@ -16,14 +16,16 @@
 
 ## 本期练习传送门
 
-- [第 66 期(W3C 标准-HTML)：特殊实体字符HTML、CSS、JS对照表](https://github.com/fezaoduke/fe-practice-hard/issues/69)
+- [第 67 期(W3C 标准-HTML)：form 特性](https://github.com/fezaoduke/fe-practice-hard/issues/70)
 
+<!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
 
   > 开考日期：2019-07-19 至 2019-07-21 <br>
   > 考试时长：8 分钟 <br>
   > 人数限制：25 人（用的第三方考试系统，免费版限制 25 人） <br>
   > 及格分数：4 分（满分 6 分），考完自动核算成绩 <br>
+-->
 
 <!--
 ## 榜单
@@ -45,6 +47,7 @@
     - [第 33 期(W3C 标准-HTML)：汉语拼音](https://github.com/fezaoduke/fe-practice-hard/issues/36)
     - [第 43 期(W3C标准-HTML)：快捷键](https://github.com/fezaoduke/fe-practice-hard/issues/46)
     - [第 66 期(W3C 标准-HTML)：特殊实体字符HTML、CSS、JS对照表](https://github.com/fezaoduke/fe-practice-hard/issues/69)
+    - [第 67 期(W3C 标准-HTML)：form 特性](https://github.com/fezaoduke/fe-practice-hard/issues/70)
   - CSS/CSS3
     - 语法
       - [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)
