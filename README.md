@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 69 期(技巧)：git 时光机(二)](https://github.com/fezaoduke/fe-practice-hard/issues/72)
+- [第 70 期(W3C 标准-CSS-布局排版)：不定高垂直居中](https://github.com/fezaoduke/fe-practice-hard/issues/73)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -56,6 +56,7 @@
     - 布局排版
       - [第 35 期(W3C 标准-CSS-布局排版)：图片等比缩放匹配父容器尺寸](https://github.com/fezaoduke/fe-practice-hard/issues/38)
       - [第 54 期(W3C标准-CSS-布局排版)：word-break与word-wrap](https://github.com/fezaoduke/fe-practice-hard/issues/57)
+      - [第 70 期(W3C 标准-CSS-布局排版)：不定高垂直居中](https://github.com/fezaoduke/fe-practice-hard/issues/73)
     - 绘制
       - [第 4 期(2019-05-11)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
     - 响应式布局
