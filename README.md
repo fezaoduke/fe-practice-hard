@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 70 期(W3C 标准-CSS-布局排版)：不定高垂直居中](https://github.com/fezaoduke/fe-practice-hard/issues/73)
+- [第 71 期(JavaScript-DOM)：复选框的半选](https://github.com/fezaoduke/fe-practice-hard/issues/74)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -68,6 +68,7 @@
     - DOM
       - [第 24 期(JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
       - [第 41 期W3C标准-JavaScript-DOM)：点击空白处检测](https://github.com/fezaoduke/fe-practice-hard/issues/44)
+      - [第 71 期(JavaScript-DOM)：复选框的半选](https://github.com/fezaoduke/fe-practice-hard/issues/74)
     - BOM
       - [第 59 期(W3C 标准-JavaScript-BOM)：location 位置操作](https://github.com/fezaoduke/fe-practice-hard/issues/62)
     - 事件
