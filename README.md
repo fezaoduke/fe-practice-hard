@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 71 期(JavaScript-DOM)：复选框的半选](https://github.com/fezaoduke/fe-practice-hard/issues/74)
+- [第 72 期(W3C 标准-ECMAScript-语法)：判断整数](https://github.com/fezaoduke/fe-practice-hard/issues/75)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -100,6 +100,7 @@
     - [第 23 期(ECMAScript-语法)：字符串对象HTML格式替代方法](https://github.com/fezaoduke/fe-practice-hard/issues/26)
     - [第 34 期(W3C 标准-ECMAScript-语法)：js 对象深拷贝](https://github.com/fezaoduke/fe-practice-hard/issues/37)    
     - [第 57 期(W3C 标准-ECMAScript-语法)：setTimeout的其他参数](https://github.com/fezaoduke/fe-practice-hard/issues/60)
+    - [第 72 期(W3C 标准-ECMAScript-语法)：判断整数](https://github.com/fezaoduke/fe-practice-hard/issues/75)
   - 宿主对象
   - 上下文环境
     - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
