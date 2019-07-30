@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 73 期(JavaScript-ECMAScript-语法)：Unicode字符与编码互转](https://github.com/fezaoduke/fe-practice-hard/issues/76)
+- [第 74 期(数据结构-链表)：什么是链表](https://github.com/fezaoduke/fe-practice-hard/issues/77)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -149,6 +149,8 @@
     - [第 60 期(数据结构-栈)：栈和栈的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/63)
     - [第 61 期(数据结构-栈)：栈的应用](https://github.com/fezaoduke/fe-practice-hard/issues/64)
   - 树
+  - 链表
+    - [第 74 期(数据结构-链表)：什么是链表](https://github.com/fezaoduke/fe-practice-hard/issues/77)
   - 哈希
   - 数组
     - [第 15 期(2019-05-22)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
