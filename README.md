@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 74 期(数据结构-链表)：什么是链表](https://github.com/fezaoduke/fe-practice-hard/issues/77)
+- [第 75 期(数据结构-链表)：单链表的实现](https://github.com/fezaoduke/fe-practice-hard/issues/78)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -151,6 +151,7 @@
   - 树
   - 链表
     - [第 74 期(数据结构-链表)：什么是链表](https://github.com/fezaoduke/fe-practice-hard/issues/77)
+    - [第 75 期(数据结构-链表)：单链表的实现](https://github.com/fezaoduke/fe-practice-hard/issues/78)
   - 哈希
   - 数组
     - [第 15 期(2019-05-22)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
