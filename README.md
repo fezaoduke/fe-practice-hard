@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 75 期(数据结构-链表)：单链表的实现](https://github.com/fezaoduke/fe-practice-hard/issues/78)
+- [第 76 期(ECMAScript-语法)：如何判断空对象](https://github.com/fezaoduke/fe-practice-hard/issues/79)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -102,6 +102,7 @@
     - [第 57 期(W3C 标准-ECMAScript-语法)：setTimeout的其他参数](https://github.com/fezaoduke/fe-practice-hard/issues/60)
     - [第 72 期(W3C 标准-ECMAScript-语法)：判断整数](https://github.com/fezaoduke/fe-practice-hard/issues/75)
     - [第 73 期(JavaScript-ECMAScript-语法)：Unicode字符与编码互转](https://github.com/fezaoduke/fe-practice-hard/issues/76)
+    - [第 76 期(ECMAScript-语法)：如何判断空对象](https://github.com/fezaoduke/fe-practice-hard/issues/79)
   - 宿主对象
   - 上下文环境
     - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
