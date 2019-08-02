@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 76 期(ECMAScript-语法)：如何判断空对象](https://github.com/fezaoduke/fe-practice-hard/issues/79)
+- [第 77 期(HTTP 标准-状态码)：HTTP状态码和请求阶段码](https://github.com/fezaoduke/fe-practice-hard/issues/80)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -124,6 +124,7 @@
   - 请求过程
     - [第 40 期(HTTP规范-请求过程)：HTTP的方法](https://github.com/fezaoduke/fe-practice-hard/issues/43)
   - 状态码
+    - [第 77 期(HTTP 标准-状态码)：HTTP状态码和请求阶段码](https://github.com/fezaoduke/fe-practice-hard/issues/80)
   - 头部信息
   - HTTPS
 
