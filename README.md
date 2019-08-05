@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 77 期(HTTP 标准-状态码)：HTTP状态码和请求阶段码](https://github.com/fezaoduke/fe-practice-hard/issues/80)
+- [第 78 期(技巧)：如何优化SPA首屏加载](https://github.com/fezaoduke/fe-practice-hard/issues/81)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -170,6 +170,7 @@
     - [第 50 期(技巧)：npm和yarn的命令行](https://github.com/fezaoduke/fe-practice-hard/issues/53)
     - [第 68 期(技巧)：git 时光机(一)](https://github.com/fezaoduke/fe-practice-hard/issues/71)
     - [第 69 期(技巧)：git 时光机(二)](https://github.com/fezaoduke/fe-practice-hard/issues/72)
+    - [第 78 期(技巧)：如何优化SPA首屏加载](https://github.com/fezaoduke/fe-practice-hard/issues/81)
 
 
 > 参考资料：[《前端工程师的知识体系》](https://www.cnblogs.com/yoshirogu/p/4174463.html)、[《WEB前端知识体系脑图》](https://www.jianshu.com/p/00baf1e65322)、[《自己总结的web前端知识体系大全》](https://www.cnblogs.com/wangfupeng1988/p/4649709.html)    
