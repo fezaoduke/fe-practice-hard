@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 78 期(技巧)：如何优化SPA首屏加载](https://github.com/fezaoduke/fe-practice-hard/issues/81)
+- [第 79 期(W3C 标准-URL)：URLSearchParams](https://github.com/fezaoduke/fe-practice-hard/issues/82)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -92,6 +92,8 @@
   - XML
   - SVG
     - [第 28 期(W3C 标准-SVG)：用SVG画西瓜](https://github.com/fezaoduke/fe-practice-hard/issues/31)
+  - URL
+    - [第 79 期(W3C 标准-URL)：URLSearchParams](https://github.com/fezaoduke/fe-practice-hard/issues/82)
 - #### ECMAScript
   - 语法
     - [第 13 期(2019-05-20)：无返回值的语句](https://github.com/fezaoduke/fe-practice-hard/issues/15)
@@ -103,7 +105,6 @@
     - [第 72 期(W3C 标准-ECMAScript-语法)：判断整数](https://github.com/fezaoduke/fe-practice-hard/issues/75)
     - [第 73 期(JavaScript-ECMAScript-语法)：Unicode字符与编码互转](https://github.com/fezaoduke/fe-practice-hard/issues/76)
     - [第 76 期(ECMAScript-语法)：如何判断空对象](https://github.com/fezaoduke/fe-practice-hard/issues/79)
-  - 宿主对象
   - 上下文环境
     - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
     - [第 52 期(W3C 标准-ECMAScript-上下文环境)：模拟call方法](https://github.com/fezaoduke/fe-practice-hard/issues/55)
