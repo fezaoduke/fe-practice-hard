@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 80 期(W3C 标准-JavaScript-事件)：InputEvent.inputType](https://github.com/fezaoduke/fe-practice-hard/issues/83)
+- [第 81 期(数据结构-数组)：数组项的互换和移动](https://github.com/fezaoduke/fe-practice-hard/issues/84)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -98,13 +98,13 @@
 - #### ECMAScript
   - 语法
     - [第 13 期(2019-05-20)：无返回值的语句](https://github.com/fezaoduke/fe-practice-hard/issues/15)
-    - [第 14 期(2019-05-21)：类型判断](https://github.com/fezaoduke/fe-practice-hard/issues/16)
-    - [第 16 期(2019-5-23)：浅克隆](https://github.com/fezaoduke/fe-practice-hard/issues/18)
+    - [第 14 期(ECMAScript-语法)：类型判断](https://github.com/fezaoduke/fe-practice-hard/issues/16)
+    - [第 16 期(ECMAScript-语法)：浅克隆](https://github.com/fezaoduke/fe-practice-hard/issues/18)
     - [第 23 期(ECMAScript-语法)：字符串对象HTML格式替代方法](https://github.com/fezaoduke/fe-practice-hard/issues/26)
-    - [第 34 期(W3C 标准-ECMAScript-语法)：js 对象深拷贝](https://github.com/fezaoduke/fe-practice-hard/issues/37)    
-    - [第 57 期(W3C 标准-ECMAScript-语法)：setTimeout的其他参数](https://github.com/fezaoduke/fe-practice-hard/issues/60)
-    - [第 72 期(W3C 标准-ECMAScript-语法)：判断整数](https://github.com/fezaoduke/fe-practice-hard/issues/75)
-    - [第 73 期(JavaScript-ECMAScript-语法)：Unicode字符与编码互转](https://github.com/fezaoduke/fe-practice-hard/issues/76)
+    - [第 34 期(ECMAScript-语法)：js 对象深拷贝](https://github.com/fezaoduke/fe-practice-hard/issues/37)    
+    - [第 57 期(ECMAScript-语法)：setTimeout的其他参数](https://github.com/fezaoduke/fe-practice-hard/issues/60)
+    - [第 72 期(ECMAScript-语法)：判断整数](https://github.com/fezaoduke/fe-practice-hard/issues/75)
+    - [第 73 期(ECMAScript-语法)：Unicode字符与编码互转](https://github.com/fezaoduke/fe-practice-hard/issues/76)
     - [第 76 期(ECMAScript-语法)：如何判断空对象](https://github.com/fezaoduke/fe-practice-hard/issues/79)
   - 上下文环境
     - [第 12 期(2019-05-19)：同名函数的执行](https://github.com/fezaoduke/fe-practice-hard/issues/14)
@@ -113,15 +113,15 @@
   - 原型链 继承
     - [第 22 期(ECMAScript-原型链 继承)：实现 Array map](https://github.com/fezaoduke/fe-practice-hard/issues/25)
     - [第 26 期(ECMAScript-原型链 继承)：实现 Array reduce](https://github.com/fezaoduke/fe-practice-hard/issues/29)
-    - [第 37 期(W3C 标准-ECMAScript-原型链 继承)：原型链的尽头](https://github.com/fezaoduke/fe-practice-hard/issues/40)
+    - [第 37 期(ECMAScript-原型链 继承)：原型链的尽头](https://github.com/fezaoduke/fe-practice-hard/issues/40)
   - 作用域 闭包
-    - [第 2 期(2019-05-09)：定时输出数字](https://github.com/fezaoduke/fe-practice-hard/issues/3)
+    - [第 2 期(ECMAScript-作用域 闭包)：定时输出数字](https://github.com/fezaoduke/fe-practice-hard/issues/3)
     - [第 31 期(ECMAScript-作用域 闭包)：模拟ES6 Generator](https://github.com/fezaoduke/fe-practice-hard/issues/34)
   - 正则表达式
-    - [第 9 期(2019-05-16)：CSS兼容性验证](https://github.com/fezaoduke/fe-practice-hard/issues/11)
+    - [第 9 期(ECMAScript-正则表达式)：CSS兼容性验证](https://github.com/fezaoduke/fe-practice-hard/issues/11)
     - [第 27 期(ECMAScript-正则表达式)：金额数值格式化](https://github.com/fezaoduke/fe-practice-hard/issues/30)
   - 严格模式
-    - [第 11 期(2019-05-18)：arguments与'use strict'](https://github.com/fezaoduke/fe-practice-hard/issues/13)
+    - [第 11 期(ECMAScript-严格模式)：arguments与'use strict'](https://github.com/fezaoduke/fe-practice-hard/issues/13)
 - #### HTTP 标准
   - 请求过程
     - [第 40 期(HTTP规范-请求过程)：HTTP的方法](https://github.com/fezaoduke/fe-practice-hard/issues/43)
@@ -139,11 +139,11 @@
     - [第 30 期(算法-搜索)：二分搜索算法](https://github.com/fezaoduke/fe-practice-hard/issues/33)
     - [第 42 期(算法-搜索)：获取多层嵌套对象的目标属性值](https://github.com/fezaoduke/fe-practice-hard/issues/45)
   - 排序
-    - [第 1 期(2019-05-08)：多重排序](https://github.com/fezaoduke/fe-practice-hard/issues/2)
+    - [第 1 期(算法-排序)：多重排序](https://github.com/fezaoduke/fe-practice-hard/issues/2)
   - 递归
     - [第 25 期(算法-递归)：汉诺塔（河内塔）](https://github.com/fezaoduke/fe-practice-hard/issues/28)
   - 数学
-    - [第 8 期(2019-05-15)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
+    - [第 8 期(算法-数学)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
     - [第 29 期(算法-数学)：抽奖概率算法](https://github.com/fezaoduke/fe-practice-hard/issues/32)
 - #### 数据结构
   - 队列
@@ -158,8 +158,9 @@
     - [第 75 期(数据结构-链表)：单链表的实现](https://github.com/fezaoduke/fe-practice-hard/issues/78)
   - 哈希
   - 数组
-    - [第 15 期(2019-05-22)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
+    - [第 15 期(数据结构-数组)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
     - [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
+    - [第 81 期(数据结构-数组)：数组项的互换和移动](https://github.com/fezaoduke/fe-practice-hard/issues/84)
 - #### 性能
 
 ### 招术 ![](./assets/images/boxing.png)
