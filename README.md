@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 81 期(数据结构-数组)：数组项的互换和移动](https://github.com/fezaoduke/fe-practice-hard/issues/84)
+- [第 82 期(算法-数学)：如何将一张图片完全显示在容器里](https://github.com/fezaoduke/fe-practice-hard/issues/85)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -145,6 +145,7 @@
   - 数学
     - [第 8 期(算法-数学)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
     - [第 29 期(算法-数学)：抽奖概率算法](https://github.com/fezaoduke/fe-practice-hard/issues/32)
+    - [第 82 期(算法-数学)：如何将一张图片完全显示在容器里](https://github.com/fezaoduke/fe-practice-hard/issues/85)
 - #### 数据结构
   - 队列
     - [第 62 期(数据结构-队列)：队列和队列的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/65)
