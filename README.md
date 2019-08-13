@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 84 期(JavaScript-DOM)：client、offset和scroll](https://github.com/fezaoduke/fe-practice-hard/issues/87)
+- [第 85 期(算法-数学)：判断一个数是否为素数（质数）](https://github.com/fezaoduke/fe-practice-hard/issues/88)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -149,6 +149,7 @@
     - [第 8 期(算法-数学)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
     - [第 29 期(算法-数学)：抽奖概率算法](https://github.com/fezaoduke/fe-practice-hard/issues/32)
     - [第 82 期(算法-数学)：如何将一张图片完全显示在容器里](https://github.com/fezaoduke/fe-practice-hard/issues/85)
+    - [第 85 期(算法-数学)：判断一个数是否为素数（质数）](https://github.com/fezaoduke/fe-practice-hard/issues/88)
 - #### 数据结构
   - 队列
     - [第 62 期(数据结构-队列)：队列和队列的模拟](https://github.com/fezaoduke/fe-practice-hard/issues/65)
