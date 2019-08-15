@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 86 期(算法-数学)：经典排序算法之冒泡排序](https://github.com/fezaoduke/fe-practice-hard/issues/89)
+- [第 87 期(算法-排序)：经典排序算法之选择排序](https://github.com/fezaoduke/fe-practice-hard/issues/90)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -144,6 +144,7 @@
   - 排序
     - [第 1 期(算法-排序)：多重排序](https://github.com/fezaoduke/fe-practice-hard/issues/2)
     - [第 86 期(算法-排序)：经典排序算法之冒泡排序](https://github.com/fezaoduke/fe-practice-hard/issues/89)
+    - [第 87 期(算法-排序)：经典排序算法之选择排序](https://github.com/fezaoduke/fe-practice-hard/issues/90)
   - 递归
     - [第 25 期(算法-递归)：汉诺塔（河内塔）](https://github.com/fezaoduke/fe-practice-hard/issues/28)
   - 数学
