@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 91 期(算法-排序)：经典排序算法之快速排序](https://github.com/fezaoduke/fe-practice-hard/issues/94)
+- [第 92 期(W3C 标准-CSS-绘制)：background-origin 背景图片绘制参照点](https://github.com/fezaoduke/fe-practice-hard/issues/95)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -59,6 +59,7 @@
       - [第 70 期(W3C标准-CSS-布局排版)：不定高垂直居中](https://github.com/fezaoduke/fe-practice-hard/issues/73)
     - 绘制
       - [第 4 期(W3C标准-CSS-绘制)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
+      - [第 92 期(W3C 标准-CSS-绘制)：background-origin 背景图片绘制参照点](https://github.com/fezaoduke/fe-practice-hard/issues/95)
     - 响应式布局
       - [第 39 期(W3C标准-CSS-响应式布局)：基于Grid的响应式布局](https://github.com/fezaoduke/fe-practice-hard/issues/42)
     - 动画
