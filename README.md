@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 92 期(W3C 标准-CSS-绘制)：background-origin 背景图片绘制参照点](https://github.com/fezaoduke/fe-practice-hard/issues/95)
+- [第 93 期(W3C 标准-JavaScript-Date)：获取指定月份有多少天](https://github.com/fezaoduke/fe-practice-hard/issues/96)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -89,6 +89,7 @@
       - [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
     - Date
       - [第 6 期(2019-05-13)：获取过去n天的日期](https://github.com/fezaoduke/fe-practice-hard/issues/8)
+      - [第 93 期(W3C 标准-JavaScript-Date)：获取指定月份有多少天](https://github.com/fezaoduke/fe-practice-hard/issues/96)
   - WCAG
   - JSON
     - [第 10 期(2019-05-17)：JSON.parse方法polyfill](https://github.com/fezaoduke/fe-practice-hard/issues/12)
