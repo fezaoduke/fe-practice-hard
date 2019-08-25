@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 94 期(W3C 标准-JavaScript)：toFixed 方法)：获取指定月份有多少天](https://github.com/fezaoduke/fe-practice-hard/issues/97)
+- [第 94 期(W3C 标准-JavaScript)：toFixed 方法](https://github.com/fezaoduke/fe-practice-hard/issues/97)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -66,7 +66,7 @@
       - [第 46 期(W3C标准-CSS-动画)：按钮loading动画效果](https://github.com/fezaoduke/fe-practice-hard/issues/49)
   - JavaScript
     - [第 64 期(W3C标准-JavaScript)：JavaScript中常用的转义字符](https://github.com/fezaoduke/fe-practice-hard/issues/67)
-    - [第 94 期(W3C 标准-JavaScript)：toFixed 方法)：获取指定月份有多少天](https://github.com/fezaoduke/fe-practice-hard/issues/97)
+    - [第 94 期(W3C 标准-JavaScript)：toFixed 方法](https://github.com/fezaoduke/fe-practice-hard/issues/97)
     - DOM
       - [第 24 期(W3C标准-JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
       - [第 41 期(W3C标准-JavaScript-DOM)：点击空白处检测](https://github.com/fezaoduke/fe-practice-hard/issues/44)
