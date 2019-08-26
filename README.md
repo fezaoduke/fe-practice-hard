@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 94 期(W3C 标准-JavaScript)：toFixed 方法](https://github.com/fezaoduke/fe-practice-hard/issues/97)
+- [第 95 期(数据结构-数组)：伪数组](https://github.com/fezaoduke/fe-practice-hard/issues/98)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -175,6 +175,7 @@
     - [第 15 期(数据结构-数组)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
     - [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
     - [第 81 期(数据结构-数组)：数组项的互换和移动](https://github.com/fezaoduke/fe-practice-hard/issues/84)
+    - [第 95 期(数据结构-数组)：伪数组](https://github.com/fezaoduke/fe-practice-hard/issues/98)
 - #### 性能
 
 ### 招术 ![](./assets/images/boxing.png)
