@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 95 期(数据结构-数组)：伪数组](https://github.com/fezaoduke/fe-practice-hard/issues/98)
+- [第 96 期(W3C 标准-HTML)：output 元素](https://github.com/fezaoduke/fe-practice-hard/issues/99)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -48,6 +48,7 @@
     - [第 43 期(W3C标准-HTML)：快捷键](https://github.com/fezaoduke/fe-practice-hard/issues/46)
     - [第 66 期(W3C标准-HTML)：特殊实体字符HTML、CSS、JS对照表](https://github.com/fezaoduke/fe-practice-hard/issues/69)
     - [第 67 期(W3C标准-HTML)：form 特性](https://github.com/fezaoduke/fe-practice-hard/issues/70)
+    - [第 96 期(W3C标准-HTML)：output 元素](https://github.com/fezaoduke/fe-practice-hard/issues/99)
   - CSS/CSS3
     - 语法
       - [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)
