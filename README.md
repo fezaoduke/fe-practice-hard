@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 97 期(W3C 标准-CSS-布局排版)：首字下沉效果](https://github.com/fezaoduke/fe-practice-hard/issues/100)
+- [第 98 期(W3C 标准-CSS-布局排版)：首行文字自定义](https://github.com/fezaoduke/fe-practice-hard/issues/101)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -59,6 +59,7 @@
       - [第 54 期(W3C标准-CSS-布局排版)：word-break与word-wrap](https://github.com/fezaoduke/fe-practice-hard/issues/57)
       - [第 70 期(W3C标准-CSS-布局排版)：不定高垂直居中](https://github.com/fezaoduke/fe-practice-hard/issues/73)
       - [第 97 期(W3C 标准-CSS-布局排版)：首字下沉效果](https://github.com/fezaoduke/fe-practice-hard/issues/100)
+      - [第 98 期(W3C 标准-CSS-布局排版)：首行文字自定义](https://github.com/fezaoduke/fe-practice-hard/issues/101)
     - 绘制
       - [第 4 期(W3C标准-CSS-绘制)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
       - [第 92 期(W3C 标准-CSS-绘制)：background-origin 背景图片绘制参照点](https://github.com/fezaoduke/fe-practice-hard/issues/95)
