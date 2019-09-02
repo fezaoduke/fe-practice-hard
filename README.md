@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 100 期(W3C 标准-CSS-布局排版)：两端对齐](https://github.com/fezaoduke/fe-practice-hard/issues/103)
+- [第 101 期(算法-排序)：根据内容排序数组](https://github.com/fezaoduke/fe-practice-hard/issues/104)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -156,6 +156,7 @@
     - [第 88 期(算法-排序)：经典排序算法之插入排序](https://github.com/fezaoduke/fe-practice-hard/issues/91)
     - [第 89 期(算法-排序)：经典排序算法之计数排序](https://github.com/fezaoduke/fe-practice-hard/issues/92)
     - [第 91 期(算法-排序)：经典排序算法之快速排序](https://github.com/fezaoduke/fe-practice-hard/issues/94)
+    - [第 101 期(算法-排序)：根据内容排序数组](https://github.com/fezaoduke/fe-practice-hard/issues/104)
   - 递归
     - [第 25 期(算法-递归)：汉诺塔（河内塔）](https://github.com/fezaoduke/fe-practice-hard/issues/28)
   - 数学
