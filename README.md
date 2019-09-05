@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 102 期(内功-性能)：节流](https://github.com/fezaoduke/fe-practice-hard/issues/105)
+- [第 103 期(内功-性能)：防抖](https://github.com/fezaoduke/fe-practice-hard/issues/106)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -183,6 +183,7 @@
     - [第 95 期(数据结构-数组)：伪数组](https://github.com/fezaoduke/fe-practice-hard/issues/98)
 - #### 性能
     - [第 102 期(内功-性能)：节流](https://github.com/fezaoduke/fe-practice-hard/issues/105)
+    - [第 103 期(内功-性能)：防抖](https://github.com/fezaoduke/fe-practice-hard/issues/106)
 
 ### 招术 ![](./assets/images/boxing.png)
 
