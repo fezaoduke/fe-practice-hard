@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 103 期(内功-性能)：防抖](https://github.com/fezaoduke/fe-practice-hard/issues/106)
+- [第 104 期(W3C 标准-SVG)：SVG优雅降级显示](https://github.com/fezaoduke/fe-practice-hard/issues/107)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -102,6 +102,7 @@
   - XML
   - SVG
     - [第 28 期(W3C标准-SVG)：用SVG画西瓜](https://github.com/fezaoduke/fe-practice-hard/issues/31)
+    - [第 104 期(W3C 标准-SVG)：SVG优雅降级显示](https://github.com/fezaoduke/fe-practice-hard/issues/107)
   - canvas
     - [第 83 期(W3C标准-canvas)：canvas 画布尺寸](https://github.com/fezaoduke/fe-practice-hard/issues/86)
   - URL
