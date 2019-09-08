@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 105 期(W3C标准-HTML)：表单验证](https://github.com/fezaoduke/fe-practice-hard/issues/108)
+- [第 106 期(W3C标准-HTML)：原生HTML实现输入框下拉补全提示](https://github.com/fezaoduke/fe-practice-hard/issues/109)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -50,6 +50,7 @@
     - [第 67 期(W3C标准-HTML)：form 特性](https://github.com/fezaoduke/fe-practice-hard/issues/70)
     - [第 96 期(W3C标准-HTML)：output 元素](https://github.com/fezaoduke/fe-practice-hard/issues/99)
     - [第 105 期(W3C标准-HTML)：表单验证](https://github.com/fezaoduke/fe-practice-hard/issues/108)
+    - [第 106 期(W3C标准-HTML)：原生HTML实现输入框下拉补全提示](https://github.com/fezaoduke/fe-practice-hard/issues/109)
   - CSS/CSS3
     - 语法
       - [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)
