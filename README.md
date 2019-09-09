@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 106 期(W3C标准-HTML)：原生HTML实现输入框下拉补全提示](https://github.com/fezaoduke/fe-practice-hard/issues/109)
+- [第 107 期(W3C标准-CSS-绘制)：占位区块效果](https://github.com/fezaoduke/fe-practice-hard/issues/110)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -66,6 +66,7 @@
     - 绘制
       - [第 4 期(W3C标准-CSS-绘制)：CSS 菱形剪切](https://github.com/fezaoduke/fe-practice-hard/issues/6)
       - [第 92 期(W3C 标准-CSS-绘制)：background-origin 背景图片绘制参照点](https://github.com/fezaoduke/fe-practice-hard/issues/95)
+      - [第 107 期(W3C标准-CSS-绘制)：占位区块效果](https://github.com/fezaoduke/fe-practice-hard/issues/110)
     - 响应式布局
       - [第 39 期(W3C标准-CSS-响应式布局)：基于Grid的响应式布局](https://github.com/fezaoduke/fe-practice-hard/issues/42)
     - 动画
