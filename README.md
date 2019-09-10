@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 107 期(W3C标准-CSS-绘制)：占位区块效果](https://github.com/fezaoduke/fe-practice-hard/issues/110)
+- [第 108 期(W3C标准-canvas)：碎屑特效](https://github.com/fezaoduke/fe-practice-hard/issues/111)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -108,6 +108,7 @@
     - [第 104 期(W3C 标准-SVG)：SVG优雅降级显示](https://github.com/fezaoduke/fe-practice-hard/issues/107)
   - canvas
     - [第 83 期(W3C标准-canvas)：canvas 画布尺寸](https://github.com/fezaoduke/fe-practice-hard/issues/86)
+    - [第 108 期(W3C标准-canvas)：碎屑特效](https://github.com/fezaoduke/fe-practice-hard/issues/111)
   - URL
     - [第 79 期(W3C标准-URL)：URLSearchParams](https://github.com/fezaoduke/fe-practice-hard/issues/82)
 - #### ECMAScript
