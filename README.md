@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 108 期(W3C标准-canvas)：碎屑特效](https://github.com/fezaoduke/fe-practice-hard/issues/111)
+- [第 109 期(W3C标准-CSS-动画)：翻转缩放动画](https://github.com/fezaoduke/fe-practice-hard/issues/112)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -71,6 +71,7 @@
       - [第 39 期(W3C标准-CSS-响应式布局)：基于Grid的响应式布局](https://github.com/fezaoduke/fe-practice-hard/issues/42)
     - 动画
       - [第 46 期(W3C标准-CSS-动画)：按钮loading动画效果](https://github.com/fezaoduke/fe-practice-hard/issues/49)
+      - [第 109 期(W3C标准-CSS-动画)：翻转缩放动画](https://github.com/fezaoduke/fe-practice-hard/issues/112)
   - JavaScript
     - [第 64 期(W3C标准-JavaScript)：JavaScript中常用的转义字符](https://github.com/fezaoduke/fe-practice-hard/issues/67)
     - [第 94 期(W3C 标准-JavaScript)：toFixed 方法](https://github.com/fezaoduke/fe-practice-hard/issues/97)
