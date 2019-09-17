@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 109 期(W3C标准-CSS-动画)：翻转缩放动画](https://github.com/fezaoduke/fe-practice-hard/issues/112)
+- [第 110 期(数据结构-数组)：清空数组](https://github.com/fezaoduke/fe-practice-hard/issues/113)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -187,6 +187,7 @@
     - [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
     - [第 81 期(数据结构-数组)：数组项的互换和移动](https://github.com/fezaoduke/fe-practice-hard/issues/84)
     - [第 95 期(数据结构-数组)：伪数组](https://github.com/fezaoduke/fe-practice-hard/issues/98)
+    - [第 110 期(数据结构-数组)：清空数组](https://github.com/fezaoduke/fe-practice-hard/issues/113)
 - #### 性能
     - [第 102 期(内功-性能)：节流](https://github.com/fezaoduke/fe-practice-hard/issues/105)
     - [第 103 期(内功-性能)：防抖](https://github.com/fezaoduke/fe-practice-hard/issues/106)
