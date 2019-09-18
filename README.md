@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 110 期(数据结构-数组)：清空数组](https://github.com/fezaoduke/fe-practice-hard/issues/113)
+- [第 111 期(W3C 标准-JavaScript-Date)：五种获取指定日期毫秒数的方法](https://github.com/fezaoduke/fe-practice-hard/issues/114)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -99,6 +99,7 @@
     - Date
       - [第 6 期(2019-05-13)：获取过去n天的日期](https://github.com/fezaoduke/fe-practice-hard/issues/8)
       - [第 93 期(W3C 标准-JavaScript-Date)：获取指定月份有多少天](https://github.com/fezaoduke/fe-practice-hard/issues/96)
+      - [第 111 期(W3C 标准-JavaScript-Date)：五种获取指定日期毫秒数的方法](https://github.com/fezaoduke/fe-practice-hard/issues/114)
   - WCAG
   - JSON
     - [第 10 期(2019-05-17)：JSON.parse方法polyfill](https://github.com/fezaoduke/fe-practice-hard/issues/12)
