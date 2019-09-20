@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 112 期(W3C 标准-HTML)：table的colgroup和col](https://github.com/fezaoduke/fe-practice-hard/issues/115)
+- [第 113 期(W3C 标准-JavaScript-异步)：async 和 await](https://github.com/fezaoduke/fe-practice-hard/issues/116)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -94,6 +94,7 @@
     - 异步
       - [第 36 期(W3C标准-JavaScript-异步)：实现一个Promise方法](https://github.com/fezaoduke/fe-practice-hard/issues/39)
       - [第 65 期(W3C标准-JavaScript-异步)：手写实现AJAX](https://github.com/fezaoduke/fe-practice-hard/issues/68)
+      - [第 113 期(W3C 标准-JavaScript-异步)：async 和 await](https://github.com/fezaoduke/fe-practice-hard/issues/116)
     - Math
       - [第 5 期(2019-05-12)：数组最大数最小数](https://github.com/fezaoduke/fe-practice-hard/issues/7)
       - [第 7 期(2019-05-14)：n以内的随机数](https://github.com/fezaoduke/fe-practice-hard/issues/9)
