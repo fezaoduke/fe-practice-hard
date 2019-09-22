@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 113 期(W3C 标准-JavaScript-异步)：async 和 await](https://github.com/fezaoduke/fe-practice-hard/issues/116)
+- [第 114 期(W3C标准-CSS-伪类&伪元素)：focus-within 伪类](https://github.com/fezaoduke/fe-practice-hard/issues/117)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -54,9 +54,10 @@
     - [第 112 期(W3C 标准-HTML)：table的colgroup和col](https://github.com/fezaoduke/fe-practice-hard/issues/115)
   - CSS/CSS3
     - 语法
-      - [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)
-    - 盒模型
-      - [第 32 期(W3C标准-CSS-盒模型)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
+      - [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)    
+      - [第 32 期(W3C标准-CSS-语法)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
+    - 伪类/伪元素
+      - [第 114 期(W3C标准-CSS-伪类&伪元素)：focus-within 伪类](https://github.com/fezaoduke/fe-practice-hard/issues/117)
     - 布局排版
       - [第 35 期(W3C标准-CSS-布局排版)：图片等比缩放匹配父容器尺寸](https://github.com/fezaoduke/fe-practice-hard/issues/38)
       - [第 54 期(W3C标准-CSS-布局排版)：word-break与word-wrap](https://github.com/fezaoduke/fe-practice-hard/issues/57)
