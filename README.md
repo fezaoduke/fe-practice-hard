@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 114 期(W3C标准-CSS-伪类&伪元素)：focus-within 伪类](https://github.com/fezaoduke/fe-practice-hard/issues/117)
+- [第 115 期(W3C标准-CSS-语法)：CSS 单位](https://github.com/fezaoduke/fe-practice-hard/issues/118)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -56,6 +56,7 @@
     - 语法
       - [第 53 期(W3C标准-CSS-语法)：样式的顺序](https://github.com/fezaoduke/fe-practice-hard/issues/56)    
       - [第 32 期(W3C标准-CSS-语法)：两种盒模型的区别](https://github.com/fezaoduke/fe-practice-hard/issues/35)
+      - [第 115 期(W3C标准-CSS-语法)：CSS 单位](https://github.com/fezaoduke/fe-practice-hard/issues/118)
     - 伪类/伪元素
       - [第 114 期(W3C标准-CSS-伪类&伪元素)：focus-within 伪类](https://github.com/fezaoduke/fe-practice-hard/issues/117)
     - 布局排版
