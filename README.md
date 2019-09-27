@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 116 期(W3C 标准-JavaScript)：atob & btoa —— base64 的解码编码](https://github.com/fezaoduke/fe-practice-hard/issues/119)
+- [第 117 期(JavaScript-DOM)：监听页面DOM元素的插入](https://github.com/fezaoduke/fe-practice-hard/issues/120)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -85,6 +85,7 @@
       - [第 71 期(W3C标准-JavaScript-DOM)：复选框的半选](https://github.com/fezaoduke/fe-practice-hard/issues/74)
       - [第 84 期(JavaScript-DOM)：client、offset和scroll](https://github.com/fezaoduke/fe-practice-hard/issues/87)
       - [第 90 期(JavaScript-DOM)：获取DOM的样式](https://github.com/fezaoduke/fe-practice-hard/issues/93)
+      - [第 117 期(JavaScript-DOM)：监听页面DOM元素的插入](https://github.com/fezaoduke/fe-practice-hard/issues/120)
     - BOM
       - [第 59 期(W3C标准-JavaScript-BOM)：location 位置操作](https://github.com/fezaoduke/fe-practice-hard/issues/62)
     - 事件
