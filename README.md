@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 117 期(JavaScript-DOM)：监听页面DOM元素的插入](https://github.com/fezaoduke/fe-practice-hard/issues/120)
+- [第 118 期(算法-排序)：数组乱序](https://github.com/fezaoduke/fe-practice-hard/issues/121)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -170,6 +170,7 @@
     - [第 89 期(算法-排序)：经典排序算法之计数排序](https://github.com/fezaoduke/fe-practice-hard/issues/92)
     - [第 91 期(算法-排序)：经典排序算法之快速排序](https://github.com/fezaoduke/fe-practice-hard/issues/94)
     - [第 101 期(算法-排序)：根据内容排序数组](https://github.com/fezaoduke/fe-practice-hard/issues/104)
+    - [第 118 期(算法-排序)：数组乱序](https://github.com/fezaoduke/fe-practice-hard/issues/121)
   - 递归
     - [第 25 期(算法-递归)：汉诺塔（河内塔）](https://github.com/fezaoduke/fe-practice-hard/issues/28)
   - 数学
