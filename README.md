@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 118 期(算法-排序)：数组乱序](https://github.com/fezaoduke/fe-practice-hard/issues/121)
+- [第 119 期(JavaScript-DOM)：DocumentFragment - 文档片段](https://github.com/fezaoduke/fe-practice-hard/issues/122)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -86,6 +86,7 @@
       - [第 84 期(JavaScript-DOM)：client、offset和scroll](https://github.com/fezaoduke/fe-practice-hard/issues/87)
       - [第 90 期(JavaScript-DOM)：获取DOM的样式](https://github.com/fezaoduke/fe-practice-hard/issues/93)
       - [第 117 期(JavaScript-DOM)：监听页面DOM元素的插入](https://github.com/fezaoduke/fe-practice-hard/issues/120)
+      - [第 119 期(JavaScript-DOM)：DocumentFragment - 文档片段](https://github.com/fezaoduke/fe-practice-hard/issues/122)
     - BOM
       - [第 59 期(W3C标准-JavaScript-BOM)：location 位置操作](https://github.com/fezaoduke/fe-practice-hard/issues/62)
     - 事件
