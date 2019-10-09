@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 119 期(JavaScript-DOM)：DocumentFragment - 文档片段](https://github.com/fezaoduke/fe-practice-hard/issues/122)
+- [第 120 期(W3C 标准-JavaScript-事件)：pagehide 和 pageshow](https://github.com/fezaoduke/fe-practice-hard/issues/123)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -94,6 +94,7 @@
       - [第 51 期(W3C标准-JavaScript-事件)：复合事件](https://github.com/fezaoduke/fe-practice-hard/issues/54)
       - [第 55 期(W3C标准-JavaScript-事件)：页面卸载事件 beforeunload](https://github.com/fezaoduke/fe-practice-hard/issues/58)
       - [第 80 期(W3C标准-JavaScript-事件)：InputEvent.inputType](https://github.com/fezaoduke/fe-practice-hard/issues/83)
+      - [第 120 期(W3C 标准-JavaScript-事件)：pagehide 和 pageshow](https://github.com/fezaoduke/fe-practice-hard/issues/123)
     - 存储
       - [第 58 期(W3C标准-JavaScript-存储)：保存文本域的内容刷新不丢失](https://github.com/fezaoduke/fe-practice-hard/issues/61)
     - 异步
