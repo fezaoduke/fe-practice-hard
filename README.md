@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 121 期(W3C 标准-JavaScript-DOM)：dataset](https://github.com/fezaoduke/fe-practice-hard/issues/124)
+- [第 122 期(数据结构-哈希)：哈希表](https://github.com/fezaoduke/fe-practice-hard/issues/125)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -193,6 +193,7 @@
     - [第 74 期(数据结构-链表)：什么是链表](https://github.com/fezaoduke/fe-practice-hard/issues/77)
     - [第 75 期(数据结构-链表)：单链表的实现](https://github.com/fezaoduke/fe-practice-hard/issues/78)
   - 哈希
+    - [第 122 期(数据结构-哈希)：哈希表](https://github.com/fezaoduke/fe-practice-hard/issues/125)
   - 数组
     - [第 15 期(数据结构-数组)：数组去重](https://github.com/fezaoduke/fe-practice-hard/issues/17)
     - [第 48 期(数据结构-数组)：获取字母表](https://github.com/fezaoduke/fe-practice-hard/issues/51)
