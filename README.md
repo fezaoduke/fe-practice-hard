@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 122 期(数据结构-哈希)：哈希表](https://github.com/fezaoduke/fe-practice-hard/issues/125)
+- [第 123 期(W3C标准-CSS-伪类&伪元素)：表单验证伪类](https://github.com/fezaoduke/fe-practice-hard/issues/126)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -59,6 +59,7 @@
       - [第 115 期(W3C标准-CSS-语法)：CSS 单位](https://github.com/fezaoduke/fe-practice-hard/issues/118)
     - 伪类/伪元素
       - [第 114 期(W3C标准-CSS-伪类&伪元素)：focus-within 伪类](https://github.com/fezaoduke/fe-practice-hard/issues/117)
+      - [第 123 期(W3C标准-CSS-伪类&伪元素)：表单验证伪类](https://github.com/fezaoduke/fe-practice-hard/issues/126)
     - 布局排版
       - [第 35 期(W3C标准-CSS-布局排版)：图片等比缩放匹配父容器尺寸](https://github.com/fezaoduke/fe-practice-hard/issues/38)
       - [第 54 期(W3C标准-CSS-布局排版)：word-break与word-wrap](https://github.com/fezaoduke/fe-practice-hard/issues/57)
