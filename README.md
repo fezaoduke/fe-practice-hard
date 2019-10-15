@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 124 期(W3C 标准-JavaScript)：unicode码互转](https://github.com/fezaoduke/fe-practice-hard/issues/127)
+- [第 125 期(算法-递归)：统计子类目数量](https://github.com/fezaoduke/fe-practice-hard/issues/128)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -178,6 +178,7 @@
     - [第 118 期(算法-排序)：数组乱序](https://github.com/fezaoduke/fe-practice-hard/issues/121)
   - 递归
     - [第 25 期(算法-递归)：汉诺塔（河内塔）](https://github.com/fezaoduke/fe-practice-hard/issues/28)
+    - [第 125 期(算法-递归)：统计子类目数量](https://github.com/fezaoduke/fe-practice-hard/issues/128)
   - 数学
     - [第 8 期(算法-数学)：求斐波那契数前N项](https://github.com/fezaoduke/fe-practice-hard/issues/10)
     - [第 29 期(算法-数学)：抽奖概率算法](https://github.com/fezaoduke/fe-practice-hard/issues/32)
