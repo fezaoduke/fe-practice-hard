@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 125 期(算法-递归)：统计子类目数量](https://github.com/fezaoduke/fe-practice-hard/issues/128)
+- [第 126 期(W3C 标准-JavaScript)：iframe父子通信](https://github.com/fezaoduke/fe-practice-hard/issues/129)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -81,6 +81,7 @@
     - [第 94 期(W3C 标准-JavaScript)：toFixed 方法](https://github.com/fezaoduke/fe-practice-hard/issues/97)
     - [第 116 期(W3C 标准-JavaScript)：atob & btoa —— base64 的解码编码](https://github.com/fezaoduke/fe-practice-hard/issues/119)
     - [第 124 期(W3C 标准-JavaScript)：unicode码互转](https://github.com/fezaoduke/fe-practice-hard/issues/127)
+    - [第 126 期(W3C 标准-JavaScript)：iframe父子通信](https://github.com/fezaoduke/fe-practice-hard/issues/129)
     - DOM
       - [第 24 期(W3C标准-JavaScript-DOM)：复选框的全选反选](https://github.com/fezaoduke/fe-practice-hard/issues/27)
       - [第 41 期(W3C标准-JavaScript-DOM)：点击空白处检测](https://github.com/fezaoduke/fe-practice-hard/issues/44)
