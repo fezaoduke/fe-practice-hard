@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 127 期(W3C标准-CSS-绘制)：border-radius](https://github.com/fezaoduke/fe-practice-hard/issues/130)
+- [第 128 期(技巧)：关于logo显示的SEO小技巧](https://github.com/fezaoduke/fe-practice-hard/issues/131)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -220,7 +220,8 @@
     - [第 68 期(技巧)：git 时光机(一)](https://github.com/fezaoduke/fe-practice-hard/issues/71)
     - [第 69 期(技巧)：git 时光机(二)](https://github.com/fezaoduke/fe-practice-hard/issues/72)
     - [第 78 期(技巧)：如何优化SPA首屏加载](https://github.com/fezaoduke/fe-practice-hard/issues/81)
-    - [第 99 期(招数-技巧)：前端工程师容易犯的一些低级错误](https://github.com/fezaoduke/fe-practice-hard/issues/102)
+    - [第 99 期(技巧)：前端工程师容易犯的一些低级错误](https://github.com/fezaoduke/fe-practice-hard/issues/102)
+    - [第 128 期(技巧)：关于logo显示的SEO小技巧](https://github.com/fezaoduke/fe-practice-hard/issues/131)
 
 
 > 参考资料：[《前端工程师的知识体系》](https://www.cnblogs.com/yoshirogu/p/4174463.html)、[《WEB前端知识体系脑图》](https://www.jianshu.com/p/00baf1e65322)、[《自己总结的web前端知识体系大全》](https://www.cnblogs.com/wangfupeng1988/p/4649709.html)    
