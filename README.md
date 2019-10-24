@@ -16,7 +16,7 @@
 
 ## 本期练习传送门
 
-- [第 128 期(技巧)：关于logo显示的SEO小技巧](https://github.com/fezaoduke/fe-practice-hard/issues/131)
+- [第 129 期(W3C标准-CSS-动画)：跳动的心 for 10.24程序员节](https://github.com/fezaoduke/fe-practice-hard/issues/132)
 
 <!--
 - [前端刻意练习-周末小测-2](https://exam.kaoshixing.com/exam/exam_skip_login/292991/136969)
@@ -77,6 +77,7 @@
     - 动画
       - [第 46 期(W3C标准-CSS-动画)：按钮loading动画效果](https://github.com/fezaoduke/fe-practice-hard/issues/49)
       - [第 109 期(W3C标准-CSS-动画)：翻转缩放动画](https://github.com/fezaoduke/fe-practice-hard/issues/112)
+      - [第 129 期(W3C标准-CSS-动画)：跳动的心 for 10.24程序员节](https://github.com/fezaoduke/fe-practice-hard/issues/132)
   - JavaScript
     - [第 64 期(W3C标准-JavaScript)：JavaScript中常用的转义字符](https://github.com/fezaoduke/fe-practice-hard/issues/67)
     - [第 94 期(W3C 标准-JavaScript)：toFixed 方法](https://github.com/fezaoduke/fe-practice-hard/issues/97)
